@@ -1,0 +1,10 @@
+field,mapping
+gene,"Original refined/audit gene symbol, uppercased."
+dataset_id,Original source field; GSE155237/GSE166161 remain separate fields within one declared study family.
+system,"human_anchor, mouse, cotton_rat, or organoid."
+direction,Original source-specific collapsed direction.
+detected,Original source-specific detection field; retained without reinterpretation.
+primary_deg,Original source-specific number of primary DE contrasts > 0 (FDR < 0.05 and abs(log2FC) > 0.58).
+supported,Original source-specific 0/1/2 evidence > 0; conservation use is additionally direction-checked by construct.
+module,Original pre-freeze refined module assignment; no GO reassignment is performed by this adapter.
+source_evidence_positive,"Original source-specific 0/1/2 evidence > 0. Used only as the declared anchor-presence rule because original core eligibility required positive evidence in both human fields, not primary DEG status in both."

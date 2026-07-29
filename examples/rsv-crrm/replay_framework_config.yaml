@@ -1,0 +1,35 @@
+framework:
+  name: CRRM_server_replay
+  disease: respiratory_syncytial_virus
+  version: 1.0.0-replay
+
+columns:
+  gene: gene
+  module: module
+  direction: direction
+
+construction:
+  anchor_datasets:
+    - GSE155237
+    - GSE166161
+  # The original rule requires positive 0/1/2 evidence in both related human
+  # fields. It does not require a primary DEG in both fields.
+  anchor_presence_column: source_evidence_positive
+  excluded_modules:
+    - Unassigned
+  conservation_systems:
+    - mouse
+    - cotton_rat
+    - organoid
+  minimum_primary_anchor_datasets: 0
+  minimum_conservation_systems: 2
+
+scoring:
+  method: mean_gene_zscore
+  weights: equal
+  zscore_scope: within_dataset
+  zscore_ddof: 1
+  invert_down_genes: false
+  missing_gene_policy: available_gene_mean
+  minimum_coverage_policy: report_only
+  interpretation: relative_within_dataset_not_absolute_cross_platform

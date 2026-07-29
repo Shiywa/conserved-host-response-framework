@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Conserved Host-Response Framework Toolkit"
+message: "Please cite the associated CRRM manuscript, when available, and this software version."
+type: software
+version: 0.1.0
+date-released: 2026-07-29
+authors:
+  - family-names: "Liu"
+    given-names: "Jing"
+  - family-names: "Wang"
+    given-names: "Shiyou"
+repository-code: "https://github.com/Shiywa/conserved-host-response-framework"
+license: "MIT"

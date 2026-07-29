@@ -1,0 +1,4 @@
+dataset_id	study_family	role	biological_role	shared_control_group	species	tissue	endpoint	replicate_unit	source_reference
+DATASET_A	STUDY_FAMILY_A	construction	infection		human	whole_blood	infected_vs_control	subject	DOI_or_repository
+DATASET_B	STUDY_FAMILY_B	infection_validation	infection		human	airway	infected_vs_control	donor	DOI_or_repository
+

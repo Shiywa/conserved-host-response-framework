@@ -1,0 +1,15 @@
+contrast_id	dataset_id	case_group	control_group	system	replicate_unit
+GSE155237_RSV_vs_uninfected	GSE155237	RSV	uninfected	human_anchor	subject
+GSE166161_RSV_vs_uninfected	GSE166161	RSV	uninfected	human_anchor	subject
+GSE197868_brain	GSE197868	RSV	control	mouse	animal
+GSE197868_intestine	GSE197868	RSV	control	mouse	animal
+GSE197868_lung	GSE197868	RSV	control	mouse	animal
+GSE197868_spleen	GSE197868	RSV	control	mouse	animal
+GSE297903_adult_day1	GSE297903	adult_RSV_day1	adult_day0	cotton_rat	animal
+GSE297903_adult_day4	GSE297903	adult_RSV_day4	adult_day0	cotton_rat	animal
+GSE297903_geriatric_day1	GSE297903	geriatric_RSV_day1	geriatric_day0	cotton_rat	animal
+GSE297903_geriatric_day4	GSE297903	geriatric_RSV_day4	geriatric_day0	cotton_rat	animal
+GSE263272_RSV_A	GSE263272	RSV_A	mock	organoid	organoid
+GSE263272_RSV_B	GSE263272	RSV_B	mock	organoid	organoid
+GSE263272_RSV_combined	GSE263272	RSV_combined	mock	organoid	organoid
+

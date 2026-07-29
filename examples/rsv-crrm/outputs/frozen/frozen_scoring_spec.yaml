@@ -1,0 +1,8 @@
+method: mean_gene_zscore
+weights: equal
+zscore_scope: within_dataset
+zscore_ddof: 1
+invert_down_genes: false
+missing_gene_policy: available_gene_mean
+minimum_coverage_policy: report_only
+interpretation: relative_within_dataset_not_absolute_cross_platform

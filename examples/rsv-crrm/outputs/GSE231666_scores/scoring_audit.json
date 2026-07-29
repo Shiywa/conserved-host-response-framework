@@ -1,0 +1,10 @@
+{
+  "detected_frozen_genes": 70,
+  "expression_gene_rows": 70,
+  "frozen_gene_count": 70,
+  "invert_down_genes": false,
+  "sample_count": 47,
+  "score_interpretation": "relative within-dataset score",
+  "variable_scored_genes": 70,
+  "zscore_ddof": 1
+}

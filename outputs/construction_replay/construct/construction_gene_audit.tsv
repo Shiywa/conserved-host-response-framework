@@ -1,0 +1,572 @@
+gene	module	direction	anchor_complete	anchor_presence_column	module_eligible	anchor_direction_consistent	primary_anchor_datasets	supporting_conservation_systems	conservation_system_names	selected	failure_reasons
+AATK	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ABCA1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ABTB2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ACKR2	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+ADGRE2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+ADGRG3	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+ADM	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ADORA2A	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+ADRA2B	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+AGAP2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ALDH1A3	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+ALOX12B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ALOX5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ALOX5AP	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ALOXE3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+AMPD2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ANGPTL4	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ANK1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+AOAH	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+AP5B1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+APBB1IP	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+APOBEC3A	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+APOBEC3B	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+APOBR	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+AQP9	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+ARC	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+AREG	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+ARHGAP30	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ARHGAP45	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ARHGAP9	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ARID3A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ARID3B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ARL3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ARNT2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ASPG	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ASTL	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+ATG16L2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ATP11A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ATP6AP1-DT	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ATP6V0C	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+B3GNT8	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+B9D1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BAG2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BCL2A1	Unassigned	up	True	source_evidence_positive	False	True	1	0		False	cross_system_support;module_assignment
+BCL3	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+BEAN1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BEST1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BIN2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BMP2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;organoid	True	
+BMP6	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BSCL2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+BTBD19	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+BTG2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+C11ORF96	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+C5AR1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CALB1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CALB2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+CAPN14	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CAPS	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CARD14	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CCDC13-AS2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+CCDC146	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CCDC88B	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CCL3L1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	organoid	False	cross_system_support
+CCL4L2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	organoid	False	cross_system_support
+CD177	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+CD300A	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CD37	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CDA	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+CDC42EP1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CDH16	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+CDH23	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CDKL1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CDKN2B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CEACAM1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CEACAM19	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CELSR2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CEMIP	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+CETN2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CFAP36	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CHAC1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CHST11	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+CHST9	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CHSY1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CLDN1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CLDN17	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CLDN4	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CLEC4D	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+CLEC4E	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+CLEC7A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CLGN	Unassigned	down	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+CLSPN	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CLTRN	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CORO1A	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+COTL1	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CPA4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CRABP2	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+CRCT1	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+CREB5	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;organoid	True	
+CRISPLD2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CRYAB	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	cotton_rat;organoid	True	
+CRYBG2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CSF2RB	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+CSF3R	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+CSRNP1	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+CST6	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CXCL1	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CXCL2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+CXCL5	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+CXCL8	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+CXCR2	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+CYP2E1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+CYTH4	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+DAW1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DCUN1D3	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+DEFB1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DGAT2	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+DLL4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DNAH17	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+DNAL1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DOC2B	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+DOCK2	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+DOK3	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+DOT1L	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DSC2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DSP	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DUSP1	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+DUSP2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DUSP5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DYDC2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DYNC2LI1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DYNLRB2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DYNLT4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+DZIP3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ECM1	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+ECT2L	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EDN1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+EDN2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+EEF1A2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EFHC1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EFNB2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EGR1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+EGR2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+EGR3	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+EHBP1L1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ELOVL4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EMP1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ENSG00000112096	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+ENSG00000228437	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ENSG00000228817	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ENSG00000234290	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ENSG00000259038	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ENSG00000273076	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+ENSG00000275216	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ENSG00000276980	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+EPHB3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+EPPK1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+EREG	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+ESAM	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FAM131C	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+FAM222A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FAM229B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FAM25A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FAM83A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FAM83G	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FBRS	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FBXO36	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FCGR2A	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+FCGR3B	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+FERMT3	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+FFAR2	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+FGD3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FGR	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+FHDC1	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+FLNA	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+FLNC	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FLT1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+FMNL1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FMO5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FOS	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+FOSB	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+FOSL1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+FOSL2	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+FOXM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+FPR1	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+FPR2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+FUT7	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+FXYD5	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+G0S2	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+GABRE	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GABRQ	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GABRR2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GALNT17	Unassigned	down	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+GALNTL6	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GEM	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+GFPT2	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+GJB2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GLIPR1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+GLS	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GLT1D1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GMIP	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GOLGA7B	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+GON7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GPAT3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GPR132	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+GPX7	Unassigned	down	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+GRB7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GRHL3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+GRIK3	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+GRIP2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+HAL	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+HAP1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+HAS1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+HBEGF	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+HCAR2	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+HCK	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+HK3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	cotton_rat	False	cross_system_support
+HLX	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+HR	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+HRH2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+HSPA1A	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+HSPA6	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	1	organoid	False	cross_system_support
+HSPB1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+HSPB8	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+HTR3B	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+IER2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IER5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IFITM2	Antiviral interferon response	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+IFRD1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IFT22	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IFT46	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IFT88	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IGF2R	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IL17RA	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL18RAP	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL1A	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+IL1B	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+IL1R2	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL1RL1	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL1RN	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+IL22RA1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+IL23A	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL36A	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+IL36G	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+IL4R	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL6	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+IL6R	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IL7	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+INA	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+INHBA	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+INPP5D	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+IRAK2	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+IRS2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ITGA5	Cell proliferation/remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ITGAD	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ITGAM	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ITGAX	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ITGB2	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+ITPRIP	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+JAK3	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+JAML	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+JUNB	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+JUP	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+KCNJ12	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+KCNK2	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KCNK7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+KDM6B	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+KIFC3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+KLF6	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+KLHDC9	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+KLHL30	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+KLK14	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+KLK6	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+KRT10	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRT16	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRT4	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRT6B	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+KRT6C	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+KRT78	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRT79	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRT80	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+KRTDAP	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+LAD1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+LAPTM5	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+LAT2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LATS2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LCP1	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+LCP2	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+LILRA6	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+LINC00472	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LINC00520	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LINC00707	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+LINC02482	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LIPG	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+LIPK	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LMNB1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LOC102724428	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LOC400499	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LRRC25	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+LRRIQ3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LSP1	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+LTB	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LUCAT1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LY6G6C	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+LYPD3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+LZTFL1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MAB21L4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MALL	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MAP7D1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MAP9	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MAPK8IP2	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+MCEMP1	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+MCL1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MEFV	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+MEGF9	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+METRNL	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MIDN	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MIR194-2HG	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MIR223HG	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MMP19	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+MMP25	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+MMP8	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+MMP9	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+MORN2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MPO	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+MPP1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+MUC3A	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	1	organoid	False	cross_system_support
+MUCL1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+MX2	Antiviral interferon response	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+MXD1	Antiviral interferon response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+MYEOV	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+MYO1F	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+MYO7B	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+NABP1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NAMPT	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NCF1	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+NCF2	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NCF4	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+NDNF	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NDST1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NDUFA4L2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+NELL2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NFAM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NFE2	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+NFIL3	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NFKB2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+NFKBID	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NFKBIZ	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NHSL2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NLGN2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NLRC4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NLRP12	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NLRP3	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+NME5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NOS3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+NOTCH1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NR4A3	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+NTNG2	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+NUAK2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+NWD2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+OLFM1	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+OLFM4	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+OSBPL6	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+OSM	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+OSMR	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+OTUB2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+OVOL1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+P2RY13	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PADI4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PAQR5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PDE2A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PDE4B	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+PDLIM7	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PECAM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PFKFB3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	cotton_rat	False	cross_system_support
+PFKFB4	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+PGBD5	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+PGLYRP1	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PGLYRP3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PGLYRP4	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+PHLDA1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PHLDA2	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+PHOSPHO1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PHYHIP	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PIEZO1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PIK3CD	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PIK3R5	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+PILRA	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PITX1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PKHD1L1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+PLA2G4E	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PLAT	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+PLAUR	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+PLCD3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PLEK	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+PLEKHM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PLEKHN1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+PLK3	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+PLXNC1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+POSTN	Epithelial stress and injury	down	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+POU2F3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPARD	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPIF	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPP1R13L	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPP1R18	Unassigned	up	True	source_evidence_positive	False	True	1	3	cotton_rat;mouse;organoid	False	module_assignment
+PPP1R3B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPP1R9A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PPP2R2C	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PRAM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PRDM1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+PROK2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PRR9	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+PRSS27	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PRSS3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PSTPIP1	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+PTGDS	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+PTGFR	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PTGS2	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;organoid	True	
+PTP4A3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PTPRC	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PTPRE	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PTPRN2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+PYGM	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RAB24	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RAC2	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+RAET1L	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+RAP1GAP2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RASD1	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+RASGRP4	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+RASSF2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RDH12	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+RELT	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+REN	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RETREG1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RGS18	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RGS2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RIN3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RIPOR2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RNASE7	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+RND1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+RNF122	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+RNF149	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RNF222	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RNF223	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RNF225	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ROBO4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+RUNDC3A	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+S100A7A	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+S100A8	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+S100A9	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SAMSN1	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SCARF1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SDR9C7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SELL	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+SELPLG	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SEMA4D	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SEMA7A	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+SERPINA1	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SERPINB12	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+SERPINB5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SERPINB7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SERPINB9	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SERPINC1	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+SERPINE2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SEZ6	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SFN	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SH2B2	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SH3BGRL3	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+SHKBP1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SIPA1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SIRPD	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SLC10A6	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLC11A1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLC15A1	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+SLC16A10	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+SLC19A1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLC22A13	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+SLC22A14	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+SLC22A16	Metabolic remodeling	down	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+SLC25A37	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLC26A9	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+SLC27A4	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLC2A3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+SLC39A13-AS1	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+SLC52A3	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	cotton_rat	False	cross_system_support
+SLC6A12	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+SLC7A5	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+SLC8A2	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+SLCO3A1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SLCO4A1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SMIM31	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SMOX	Metabolic remodeling	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+SMTN	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+SMYD2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SNAI1	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+SNX10	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment
+SOCS2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SOCS3	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+SOSTDC1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SOX9	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	mouse;organoid	True	
+SP6	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SPACA6	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+SPAG16	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SPHK1	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+SPI1	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+SPINK5	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SPMAP2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+SPNS2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SPRED3	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+SPRR1A	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+SPRR2A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SPRR2D	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+SPRY4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+STARD4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+STOML3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SVIL	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+SYT16	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TACC3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TAFA2	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+TCHH	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TDRD12	Unassigned	down	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+TENT5B	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TG	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TGFB1	Unassigned	up	True	source_evidence_positive	False	True	1	2	mouse;organoid	False	module_assignment
+TGM1	Epithelial stress and injury	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+THEMIS2	Neutrophil/myeloid recruitment	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+TIAM1	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TICAM1	Epithelial stress and injury		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+TIMP2	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TLE3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TLR4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TMC7	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TMCC3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TMEM132A	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TMEM79	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TMPRSS11D	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TNFAIP6	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+TNFRSF10C	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	0		False	cross_system_support
+TNFRSF19	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+TNFRSF1A	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+TNFRSF1B	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+TNFRSF8	Inflammatory cytokine/NF-kB response		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+TNFSF13B	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	cotton_rat	False	cross_system_support
+TNFSF14	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	mouse	False	cross_system_support
+TNFSF9	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	1	cotton_rat	False	cross_system_support
+TNNT2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+TREM1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+TREML2	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+TRIB1	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	2	cotton_rat;organoid	True	
+TRIM40	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+TRIM72	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+TRPV3	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TSPAN18	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+TSPAN8	Epithelial stress and injury	down	True	source_evidence_positive	True	True	1	2	cotton_rat;mouse	True	
+TTC12	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TUBB6	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+TYROBP	Neutrophil/myeloid recruitment		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+ULBP2	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+ULK4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+UNC13D	Unassigned	up	True	source_evidence_positive	False	True	1	1	cotton_rat	False	cross_system_support;module_assignment
+UPP1	Metabolic remodeling		False	source_evidence_positive	True	False	1	0		False	anchor_detection;cross_system_support
+VDR	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+VGF	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;organoid	False	module_assignment
+WAS	Unassigned	up	True	source_evidence_positive	False	True	1	1	mouse	False	cross_system_support;module_assignment
+WDFY4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+WDR97	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+YPEL4	Unassigned	up	True	source_evidence_positive	False	True	1	1	organoid	False	cross_system_support;module_assignment
+ZFP36	Inflammatory cytokine/NF-kB response	up	True	source_evidence_positive	True	True	1	3	cotton_rat;mouse;organoid	True	
+ZG16	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ZSWIM4	Unassigned		False	source_evidence_positive	False	False	1	0		False	anchor_detection;cross_system_support;module_assignment
+ZYX	Unassigned	up	True	source_evidence_positive	False	True	1	2	cotton_rat;mouse	False	module_assignment

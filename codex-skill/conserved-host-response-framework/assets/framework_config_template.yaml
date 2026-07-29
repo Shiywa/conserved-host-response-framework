@@ -1,0 +1,22 @@
+framework:
+  name: example-framework
+  disease: example-disease
+  version: 0.1.0
+columns:
+  gene: gene
+  module: module
+  direction: direction
+construction:
+  anchor_datasets: [DATASET_A]
+  conservation_systems: [animal_model, organoid]
+  minimum_primary_anchor_datasets: 1
+  minimum_conservation_systems: 1
+scoring:
+  method: mean_gene_zscore
+  weights: equal
+  zscore_scope: within_dataset
+  zscore_ddof: 1
+  invert_down_genes: false
+  missing_gene_policy: available_gene_mean
+  minimum_coverage_policy: report_only
+

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Conserved Host-Response Framework"
+  short_description: "Build and audit frozen cross-system response frameworks"
+  default_prompt: "Use $conserved-host-response-framework to design, freeze, audit, and validate a conserved host-response framework from heterogeneous disease datasets."

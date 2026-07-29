@@ -1,0 +1,71 @@
+gene	module	direction	source_row
+MX2	Antiviral interferon response	up	1
+AREG	Epithelial stress and injury	up	2
+HBEGF	Epithelial stress and injury	up	3
+SEMA7A	Epithelial stress and injury	up	4
+CEMIP	Epithelial stress and injury	up	5
+CRYAB	Epithelial stress and injury	up	6
+MMP19	Epithelial stress and injury	up	7
+POSTN	Epithelial stress and injury	down	8
+SPRR1A	Epithelial stress and injury	up	9
+TGM1	Epithelial stress and injury	up	10
+TSPAN8	Epithelial stress and injury	down	11
+FXYD5	Epithelial stress and injury	up	12
+KLF6	Epithelial stress and injury	up	13
+PLAT	Epithelial stress and injury	up	14
+SERPINC1	Epithelial stress and injury	up	15
+SOX9	Epithelial stress and injury	up	16
+CXCL5	Inflammatory cytokine/NF-kB response	up	17
+IL6	Inflammatory cytokine/NF-kB response	up	18
+NFKB2	Inflammatory cytokine/NF-kB response	up	19
+SOCS3	Inflammatory cytokine/NF-kB response	up	20
+EDN1	Inflammatory cytokine/NF-kB response	up	21
+IL22RA1	Inflammatory cytokine/NF-kB response	up	22
+TREM1	Inflammatory cytokine/NF-kB response	up	23
+ZFP36	Inflammatory cytokine/NF-kB response	up	24
+CXCL2	Inflammatory cytokine/NF-kB response	up	25
+IL1B	Inflammatory cytokine/NF-kB response	up	26
+IL1RN	Inflammatory cytokine/NF-kB response	up	27
+PTGS2	Inflammatory cytokine/NF-kB response	up	28
+TNFAIP6	Inflammatory cytokine/NF-kB response	up	29
+BMP2	Inflammatory cytokine/NF-kB response	up	30
+FOSL1	Inflammatory cytokine/NF-kB response	up	31
+JAK3	Inflammatory cytokine/NF-kB response	up	32
+MEFV	Inflammatory cytokine/NF-kB response	up	33
+PDE4B	Inflammatory cytokine/NF-kB response	up	34
+TRIB1	Inflammatory cytokine/NF-kB response	up	35
+BCL3	Inflammatory cytokine/NF-kB response	up	36
+CREB5	Inflammatory cytokine/NF-kB response	up	37
+EDN2	Inflammatory cytokine/NF-kB response	up	38
+SLC2A3	Metabolic remodeling	up	39
+ADORA2A	Metabolic remodeling	up	40
+LIPG	Metabolic remodeling	up	41
+SLC7A5	Metabolic remodeling	up	42
+AQP9	Metabolic remodeling	up	43
+CDA	Metabolic remodeling	up	44
+FFAR2	Metabolic remodeling	up	45
+GPR132	Metabolic remodeling	up	46
+HAL	Metabolic remodeling	up	47
+SLC15A1	Metabolic remodeling	up	48
+SMOX	Metabolic remodeling	up	49
+ALOXE3	Metabolic remodeling	up	50
+NOS3	Metabolic remodeling	up	51
+SLC8A2	Metabolic remodeling	up	52
+MMP9	Neutrophil/myeloid recruitment	up	53
+OLFM4	Neutrophil/myeloid recruitment	up	54
+FERMT3	Neutrophil/myeloid recruitment	up	55
+RAC2	Neutrophil/myeloid recruitment	up	56
+CD177	Neutrophil/myeloid recruitment	up	57
+CLEC4D	Neutrophil/myeloid recruitment	up	58
+CLEC4E	Neutrophil/myeloid recruitment	up	59
+CSF3R	Neutrophil/myeloid recruitment	up	60
+CXCR2	Neutrophil/myeloid recruitment	up	61
+FGR	Neutrophil/myeloid recruitment	up	62
+ITGB2	Neutrophil/myeloid recruitment	up	63
+LSP1	Neutrophil/myeloid recruitment	up	64
+MPO	Neutrophil/myeloid recruitment	up	65
+NCF1	Neutrophil/myeloid recruitment	up	66
+NCF4	Neutrophil/myeloid recruitment	up	67
+SPI1	Neutrophil/myeloid recruitment	up	68
+THEMIS2	Neutrophil/myeloid recruitment	up	69
+RASGRP4	Neutrophil/myeloid recruitment	up	70

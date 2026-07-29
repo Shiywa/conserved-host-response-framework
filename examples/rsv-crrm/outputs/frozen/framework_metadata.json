@@ -1,0 +1,15 @@
+{
+  "creation_policy": "deterministic_content_addressed",
+  "direction_counts": {
+    "down": 2,
+    "up": 68
+  },
+  "disease": "respiratory_syncytial_virus",
+  "framework_name": "CRRM",
+  "framework_sha256": "7a6d5732c086937a1790f42218d0c8f931d997aacad0339f0b94990a1a99c2a9",
+  "gene_count": 70,
+  "input_config_sha256": "c0a4be09aa8eee5d424b5f22015fa0d6f62db2d4353e40180a780ba002abb99f",
+  "input_gene_table_sha256": "85a6129fe2c0ae656890a4c7fb400ede9ac8bfc48350ae255efe248b6824f01e",
+  "module_count": 5,
+  "version": "1.0.0"
+}

@@ -1,0 +1,71 @@
+gene,original_module,original_direction,replay_module,replay_direction,membership_status,direction_match,module_match
+ADORA2A,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+ALOXE3,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+AQP9,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+AREG,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+BCL3,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+BMP2,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+CD177,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+CDA,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+CEMIP,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+CLEC4D,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+CLEC4E,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+CREB5,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+CRYAB,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+CSF3R,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+CXCL2,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+CXCL5,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+CXCR2,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+EDN1,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+EDN2,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+FERMT3,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+FFAR2,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+FGR,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+FOSL1,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+FXYD5,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+GPR132,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+HAL,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+HBEGF,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+IL1B,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+IL1RN,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+IL22RA1,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+IL6,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+ITGB2,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+JAK3,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+KLF6,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+LIPG,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+LSP1,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+MEFV,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+MMP19,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+MMP9,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+MPO,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+MX2,Antiviral interferon response,up,Antiviral interferon response,up,shared,True,True
+NCF1,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+NCF4,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+NFKB2,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+NOS3,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+OLFM4,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+PDE4B,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+PLAT,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+POSTN,Epithelial stress and injury,down,Epithelial stress and injury,down,shared,True,True
+PTGS2,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+RAC2,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+RASGRP4,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+SEMA7A,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+SERPINC1,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+SLC15A1,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+SLC2A3,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+SLC7A5,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+SLC8A2,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+SMOX,Metabolic remodeling,up,Metabolic remodeling,up,shared,True,True
+SOCS3,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+SOX9,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+SPI1,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+SPRR1A,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+TGM1,Epithelial stress and injury,up,Epithelial stress and injury,up,shared,True,True
+THEMIS2,Neutrophil/myeloid recruitment,up,Neutrophil/myeloid recruitment,up,shared,True,True
+TNFAIP6,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+TREM1,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+TRIB1,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True
+TSPAN8,Epithelial stress and injury,down,Epithelial stress and injury,down,shared,True,True
+ZFP36,Inflammatory cytokine/NF-kB response,up,Inflammatory cytokine/NF-kB response,up,shared,True,True

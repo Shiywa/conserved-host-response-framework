@@ -1,0 +1,21 @@
+Linux validation environment
+==========================
+
+Operating system: Linux 5.15.0-139-generic x86_64
+Python: 3.13.2
+R: 4.4.1 (2024-06-14)
+
+Python packages
+---------------
+numpy=2.2.4
+pandas=2.3.3
+PyYAML=6.0.2
+scipy=1.16.1
+
+Validation date: 2026-07-29 (Asia/Shanghai)
+
+Notes
+-----
+The toolkit uses Python for its command-line implementation. R was recorded
+because the source RSV construction scripts are R scripts, but those scripts
+were read-only inputs in this validation.

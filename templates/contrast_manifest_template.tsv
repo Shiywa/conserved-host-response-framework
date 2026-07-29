@@ -1,0 +1,3 @@
+contrast_id	dataset_id	case_group	control_group	system	direction_column	primary_deg_column	supported_column	replicate_unit
+DATASET_A_case_vs_control	DATASET_A	case	control	human_anchor	direction	primary_deg	supported	subject
+
