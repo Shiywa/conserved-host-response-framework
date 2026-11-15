@@ -1,0 +1,7 @@
+{
+  "local_with_external_inputs": "28 tests PASS",
+  "code_only_default": "21 tests PASS; one data-dependent class containing7tests skipped",
+  "current_checks": 20,
+  "legacy_checks": 8,
+  "matrices_distributed": false
+}

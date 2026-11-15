@@ -1,21 +1,23 @@
-# Unresolved limitations
+# Reproduction scope
 
-1. The toolkit replay verifies that the original server-side, already
-   aggregated evidence tables can reproduce the frozen 70-gene CRRM. It does
-   not rerun raw-expression differential expression or rank integration from
-   the 13 source contrasts.
-2. GSE155237 and GSE166161 share a study family and baseline controls. The
-   toolkit preserves and reports this dependence; they must not be described
-   as two independent human cohorts.
-3. The adapter relies on the original project's audited 0/1/2 evidence fields
-   and pre-freeze module assignments. It does not independently validate the
-   biological annotation or ortholog mapping underlying those fields.
-4. The GSE231666 acceptance example demonstrates numerical score reproduction
-   and a paired post-freeze association, not diagnosis, prediction,
-   calibration, causal validity, or clinical utility.
-5. The toy non-RSV unit test demonstrates disease-independent software
-   behavior only. A second real disease framework would be required for a
-   cross-disease scientific generalizability claim.
-6. The included LICENSE explicitly does not grant public redistribution or
-   public-use rights. Author-approved licensing, repository metadata, and
-   archival review remain required before public release.
+This is a code-only current-study release. Real-data regression requires
+separately obtained/prepared inputs; an absent input bundle produces explicit
+skips rather than a claim of successful biological replay. The recorded local
+replay uses saved DE evidence and processed expression, not a fresh raw-data
+or complete multi-million-cell reanalysis. Native code and input contracts
+are supplied for acquisition-dependent stages.
+
+GSE246622 inclusion is supported by author collection/sampling evidence;
+complete patient identities are not public for all profiles. Unavailable IDs
+remain missing. Resampling/holdout units and the inherited age basis are
+stated accurately. The internal evaluation is not external or fully nested.
+
+Absolute scores depend on study-specific references. Overlapping annotation
+sets do not establish independent mechanisms. Small donor/clinical subsets,
+unavailable comparisons, negative results and method-dependent findings retain
+their original scope. Table S8 records the statistical rules.
+
+Historical R versions are reported from actual stage records; unrecorded
+versions are not inferred. Pixel-identical figures require the recorded stack
+and an installed suitable Arial font. Manuscript narratives remain for author
+synchronization in docs/MANUSCRIPT_SYNC.md. No archive DOI is assigned.

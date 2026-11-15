@@ -1,0 +1,12 @@
+{
+  "declared_before_scoring": true,
+  "reason": "One DBA2J vehicle profile absent in deposited matrix relative to the paper nominal n=3 per cell",
+  "actual_counts": {
+    "vehicle": 14,
+    "RSV_D1": 15,
+    "RSV_D5": 15
+  },
+  "primary_estimand": "Equal-strain mean of5RSVD1-minus-vehicle differences",
+  "model": "Saturated10-cell strain-by-D1-condition means with equal1/5contrast weights;pooled residual tCI",
+  "plan_core_and_thresholds_unchanged": true
+}

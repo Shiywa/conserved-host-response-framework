@@ -1,21 +1,26 @@
-Linux validation environment
-==========================
+Current CRRM388 Linux replay (2026-11-15)
+========================================
+Python 3.12.13
+numpy 2.2.6
+pandas 2.3.3
+scipy 1.16.3
+matplotlib 3.10.9
+PyYAML 6.0.3
+R 4.2.0 (2022-04-22), x86_64-pc-linux-gnu, Ubuntu 20.04.6 LTS
+Single-threaded OpenBLAS/OMP for native replay.
 
-Operating system: Linux 5.15.0-139-generic x86_64
-Python: 3.13.2
-R: 4.4.1 (2024-06-14)
+The recorded current replay executed R splines and independent numerical checks,
+processed-input Python clinical models, and all 13 figure scripts. Arial was
+installed for original layouts; fonts are not distributed. Actual R sessionInfo
+records are under study/environment/.
 
-Python packages
----------------
-numpy=2.2.4
-pandas=2.3.3
-PyYAML=6.0.2
-scipy=1.16.1
+Additional dependencies, read from native raw/preparation code:
+R: AnnotationDbi, Biobase, GEOquery, GO.db, babelgene, data.table, digest,
+edgeR, ggplot2, jsonlite, limma, openxlsx, org.Hs.eg.db, org.Mm.eg.db, splines.
+Python atlas extraction: anndata, h5py, pyarrow, plus packages above.
+These stages were not all rerun during this release. Historical sessionInfo,
+not current installations, establishes their historical versions. No unrecorded
+R package version is inferred. See study/WORKFLOWS.md for external inputs.
 
-Validation date: 2026-07-29 (Asia/Shanghai)
-
-Notes
------
-The toolkit uses Python for its command-line implementation. R was recorded
-because the source RSV construction scripts are R scripts, but those scripts
-were read-only inputs in this validation.
+The Python 3.13.2 / R 4.4.1 environment at v0.1.0 describes that historical
+software acceptance run, not the current CRRM388 manuscript analysis.

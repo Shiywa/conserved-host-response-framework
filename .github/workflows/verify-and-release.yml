@@ -1,0 +1,60 @@
+name: Verify and release CRRM388
+on:
+  push:
+    branches: [main]
+    paths:
+      - pyproject.toml
+      - scripts/package_release.py
+      - scripts/publish_release.py
+      - .github/workflows/verify-and-release.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-study.txt
+      - run: python -m pip install --no-deps -e .
+      - run: python scripts/check_public_bundle.py
+      - name: Core and legacy tests; real-data regressions require local inputs
+        run: python -m unittest discover -s tests -v
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+      - name: Frozen definition and synthetic CLI smoke test
+        run: |
+          crrm388 check-definition
+          python scripts/make_synthetic_demo.py --output-dir replay_run/synthetic
+          crrm388 fit-reference --expression replay_run/synthetic/synthetic_expression.csv --reference-samples replay_run/synthetic/synthetic_reference_samples.txt --output replay_run/synthetic/reference.json
+          crrm388 score --expression replay_run/synthetic/synthetic_expression.csv --reference replay_run/synthetic/reference.json --output-dir replay_run/synthetic/scores
+        env:
+          OPENBLAS_NUM_THREADS: '1'
+          OMP_NUM_THREADS: '1'
+
+  release:
+    needs: verify
+    if: github.ref == 'refs/heads/main' && github.repository == 'Shiywa/conserved-host-response-framework'
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: '3.12'
+      - run: python scripts/package_release.py
+      - run: python scripts/publish_release.py
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

@@ -1,0 +1,9 @@
+{
+  "declared_at": "2026-11-13T02:51:44.112487+00:00",
+  "status": "EXPLORATORY_AFTER_PRIMARY_CELLULAR_RESULTS",
+  "trigger": "Contribution audit identified a substantial PIGR contribution despite detection in fewer than1%of PBMC B cells; evaluate measurement sensitivity uniformly, not a gene-set reconstruction",
+  "rank_method": "Equal-member signed percentile rank of frozen genes within all commonly measured host features of each unit/cell-type count-pseudobulk; no gene-wise variance scaling",
+  "expression_supported": "Gene detected in at least10%of cells in at least3 biological units, with conditions/time pooled without selecting contrast sign; same gene z-reference as primary",
+  "scope": "All eight declared comparisons; original primary estimates and BH8/BH56 families unchanged",
+  "outcome_selection": false
+}

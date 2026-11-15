@@ -1,0 +1,11 @@
+{
+  "declared_at": "2026-11-13T07:29:36.694846+00:00",
+  "status": "NUMERICAL_CORRECTION_AFTER_PRIMARY_AND_UK_RESULTS_KNOWN",
+  "trigger": "IndependentR t.test cannot estimate19finite-P Python gene contrasts;24total direct contrasts have constant groups, including5alreadyNaN. Floating group means at different n differed by~1e-17despite constant per-sample values.",
+  "rule": "A gene contrast is non-estimable if BOTH groups have peak-to-peak signedZ spread<=1e-12. Apply uniformly to all388members in allDallasdirect,sharedgene andUKgene tests andgeneHC3checks. Keep descriptive effect, set inferentialP/CI missing;retain hypothesis asP=1in complete776/388BHfamilies. Do not delete gene from total score.",
+  "original_discovery_count": 118,
+  "original_lock_preserved": true,
+  "new_UK_outcome_selection": false,
+  "core_or_total_score_changed": false,
+  "independent_R_check": "Fail rather than silently skip if Python records finitePfor anRnon-estimable contrast"
+}

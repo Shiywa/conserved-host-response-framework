@@ -1,0 +1,12 @@
+{
+  "declared_at": "2026-11-13T15:23:43.743561+00:00",
+  "parent_plan_sha256": "89e02ce2cf6b497cbb1ba1363ec78f3830f884014a8c56bbdc29f3fbbe9d0bfc",
+  "status": "EXPLORATORY_DIAGNOSTIC_AFTER_PRIMARY_RESULTS",
+  "reason": "Inherited epithelial lineage includes1379cells with explicitly flagged Mixed_Macrophage_cluster_review subtype; late epithelial contrast requires sensitivity to flagged mixture and subtype composition.",
+  "new_annotations": false,
+  "exclusion": "Exclude exactly the inherited Mixed_Macrophage_cluster_review flag; do not infer new identities.",
+  "composition": "AT2/Club/Multiciliated inherited labels have>=30cells in each of11source units based on metadata, before these subset scores; observed fractions versus fixed equal-animal mean uninfected fractions within these3types.",
+  "reference": "Reuse original mouse gene mean/SD and original signs; no new reference fitting.",
+  "tests": "9exploratory Welch tests:3methods x total/IFN overlap/outside IFN; BH9 including all9; source-level exact tests also retained.",
+  "scope": "Inherited animal annotations have not undergone human-specific Gate2B review; this is a within-resource sensitivity, not new subtype validation."
+}

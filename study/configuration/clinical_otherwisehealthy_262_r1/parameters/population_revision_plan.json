@@ -1,0 +1,937 @@
+{
+  "version": "otherwisehealthy_262_r1",
+  "frozen_at_utc": "2026-11-15T07:12:57.059894+00:00",
+  "authorized_population": "Author-defined otherwise-healthy GSE246622 acute/healthy set with deposited ReSVinet grade",
+  "counts": {
+    "Moderate": 91,
+    "Mild": 79,
+    "Healthy": 56,
+    "Severe": 36
+  },
+  "total_profiles": 262,
+  "acute_profiles": 206,
+  "strict_Severe": 36,
+  "strict_Mild": 79,
+  "all_patient_identity_verified": false,
+  "linked_source_patients": 60,
+  "known_patient_duplicates": 0,
+  "keep_frozen_members": 388,
+  "up": 280,
+  "down": 108,
+  "frozen_annotation_subsets": 7,
+  "scoring_reference": "All262profiles, separately for author batch-corrected and RMA expression",
+  "old313_population": "Internal history only; not a displayed primary, expanded or sensitivity population",
+  "spline": "R splines::ns(df=3), refit on115severity profiles for score models and on262for four-group gene model; inherit the115-case basis within exploratory folds",
+  "resampling": {
+    "seed": 20261120,
+    "permutations": 19999,
+    "gene_bootstrap": 1000,
+    "disjoint_Mild_splits": 200
+  },
+  "multiplicity": "Retain all original families; update shared adjusted P using new whole-blood raw P; no r3 Holm3 population-restriction family",
+  "other_studies": "Reuse original scores,effects,raw P and resampling results; recalculate shared adjusted P only",
+  "narratives": "No edits to Word,Results,Abstract,Highlights,Discussion,formal legends or Methods body",
+  "inputs": [
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/workbook_spec.json",
+      "sha256": "b67cf871ca536ac7f7ca37a2d5e1b51e2d62f6debdc10a391c306ff907d9dff5",
+      "working_copy": "main/parameters/workbook_spec.json"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/functional_covariate_sensitivity_amendment.json",
+      "sha256": "86b8c79cbd9d3b58d800f96d3fcc198213947322ec6a69fb7dce36d77d63bca5",
+      "working_copy": "main/parameters/functional_covariate_sensitivity_amendment.json"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/frozen_CRRM388.csv",
+      "sha256": "a6d45a6a0fe5818f4215474fdf6fac7caa5207ab3182484027d885b10764652f",
+      "working_copy": "main/parameters/frozen_CRRM388.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/clinical_analysis_plan_v1.json",
+      "sha256": "bbe66fc132e242d14ad6e4c2454d5444915a52d6a4842d743a84e2441c340ae5",
+      "working_copy": "main/parameters/clinical_analysis_plan_v1.json"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/declaration_receipt.json",
+      "sha256": "c82bbd2319534a98e2d456b83dd713b66d0accce97639b640d113f99e0d124fe",
+      "working_copy": "main/parameters/declaration_receipt.json"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/parameters/frozen_functional_branches.csv",
+      "sha256": "82c72f51d9955899fd06c31439948f40b267f0b98aa6084b030d96b9de0b9030",
+      "working_copy": "main/parameters/frozen_functional_branches.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/22_common_measured_members.csv",
+      "sha256": "cfa0fcca403a97c5bbb17003c790e1afb91c5dfc643bea97d3406b3edaa58624",
+      "working_copy": "main/tables/22_common_measured_members.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/27_infection_severity_gene_map.csv",
+      "sha256": "02be86f032a7d21b907ce125e4003ef66b48fd31c8efa22f4528297e97566ad5",
+      "working_copy": "main/tables/27_infection_severity_gene_map.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/12_clinical_gene_effects.csv",
+      "sha256": "0a50392f6764d9fa0ba0cd8475602629a90130915e6b18dfcc693dad62481b2d",
+      "working_copy": "main/tables/12_clinical_gene_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/30_covariate_adjusted_branch_sensitivity.csv",
+      "sha256": "3aba050c2a8f43e1cc44b8836d93a615596dbe3414daec973a48a1007e22c0d7",
+      "working_copy": "main/tables/30_covariate_adjusted_branch_sensitivity.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/14_group_score_summary.csv",
+      "sha256": "752ba22e9091d9520137715b2f2a0f2aa485f2baabfa5128a51bcb041e5a82c3",
+      "working_copy": "main/tables/14_group_score_summary.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/07_sample_scores.csv",
+      "sha256": "9790853f925308af8e757967603cd9678367c8a1f94c1a30481d7c752522db28",
+      "working_copy": "main/tables/07_sample_scores.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/02_member_coverage.csv",
+      "sha256": "ac8a9ea49859a7caa298023023ba1117819c09ec88f84ca98eea02f47abae5df",
+      "working_copy": "main/tables/02_member_coverage.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/10_functional_clinical_effects.csv",
+      "sha256": "c77bc0f870daf416481b1c701a667e07018082a6b55f94540fc73f995542078a",
+      "working_copy": "main/tables/10_functional_clinical_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/03_verified_recovery_pairs.csv",
+      "sha256": "12297457f8848c5ac32ef28a9cb49731e48e5f9508868d5e1944b2a742509e2a",
+      "working_copy": "main/tables/03_verified_recovery_pairs.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/S3A_Clinical_effects.csv",
+      "sha256": "ec424cc5db03ca627a785e98024055a774269cfe6020a2533bae7746e5682207",
+      "working_copy": "main/tables/S3A_Clinical_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/19_paired_recovery_effects.csv",
+      "sha256": "b55b959db6431c0a89bfb17bb45a07dcbbe756609bd41dddae4d7b3e01fdfd71",
+      "working_copy": "main/tables/19_paired_recovery_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/S3D_Context_sensitivity.csv",
+      "sha256": "a6cb47ac0578c8acb72514dee88a4088e392f956f969801d67ef2cc5cabf8455",
+      "working_copy": "main/tables/S3D_Context_sensitivity.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/24_hospitalization_study_strata.csv",
+      "sha256": "8bb7666a383ee0baa74bc42c55cefc74af1725cec3929612562c099fd644a4ef",
+      "working_copy": "main/tables/24_hospitalization_study_strata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/26_age_sex_subgroup_effects.csv",
+      "sha256": "f90a73f9133a19016bb90761b9e712eb4190247bc2864016b88556e4b5b121fe",
+      "working_copy": "main/tables/26_age_sex_subgroup_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/06_coverage_summary.csv",
+      "sha256": "91d6dee9fd6cc33193c858c69b283b517ce3320ff3ae7b22059066c2692e7487",
+      "working_copy": "main/tables/06_coverage_summary.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/S3B_Functional_responses.csv",
+      "sha256": "06cb1960d4dce3082c573d48ed89b4221a55dee5c122cf489b37067979076571",
+      "working_copy": "main/tables/S3B_Functional_responses.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/25_clinical_covariate_summary.csv",
+      "sha256": "6106e8588bd52d5c03bc2699345586b3c8a4dad50714c42d143b0aafa032cbde",
+      "working_copy": "main/tables/25_clinical_covariate_summary.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/23_RMA_source_sensitivity.csv",
+      "sha256": "3852dca514a5f5a1797f61d2b50860dfad6ff691f0868f48a673cea94c149602",
+      "working_copy": "main/tables/23_RMA_source_sensitivity.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/05_normalization_summary.csv",
+      "sha256": "ea9012b991f40d80a3f76fa742a7ffbac7842dd3071fd16c7941f147e8b3bc32",
+      "working_copy": "main/tables/05_normalization_summary.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/29_disjoint_Mild_split_sensitivity.csv",
+      "sha256": "1149c6c27312680d6c1c5e96600c5d8248180493d22ca2cba3f16e46dcaa6091",
+      "working_copy": "main/tables/29_disjoint_Mild_split_sensitivity.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/S3C_Gene_effects.csv",
+      "sha256": "8ad6bd3b8412e6c4f87c08f73f81718487424990705be5c9e585579f7055ab4a",
+      "working_copy": "main/tables/S3C_Gene_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/16_secondary_grade_comparisons.csv",
+      "sha256": "bc85c6f62021a8bba0d3078aec9f9e06ddd9786d37298f455c9aa53b7c80f8fd",
+      "working_copy": "main/tables/16_secondary_grade_comparisons.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/04_unpaired_GSE69606_profiles.csv",
+      "sha256": "9d9d071c31f097b86467fed821c61c9e9f31c5c67aedb6fe1f21d0752e9c9ebf",
+      "working_copy": "main/tables/04_unpaired_GSE69606_profiles.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/20_recovery_initial_grade_strata.csv",
+      "sha256": "88660efc9d1de2fa6d75ee90f387c659882d0d3aab68fbcdf7c4debb6318b0e9",
+      "working_copy": "main/tables/20_recovery_initial_grade_strata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/09_total_clinical_effects.csv",
+      "sha256": "194498ff11d72cd250d747e45ef942bcbdd4a3187c4875dd294f2e92e6aa403f",
+      "working_copy": "main/tables/09_total_clinical_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/18_paired_recovery_values.csv",
+      "sha256": "936214ad978846bb270a8686308e40d994d6d673d96349f384d8c1e47ef0f5f1",
+      "working_copy": "main/tables/18_paired_recovery_values.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/08_functional_branch_coverage.csv",
+      "sha256": "d63ea8b43cc429f1089bb0d39f4142bb4c268e2001c456ad3cecf5c748e38278",
+      "working_copy": "main/tables/08_functional_branch_coverage.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/17_covariate_adjusted_effects.csv",
+      "sha256": "bed1c8726b0facb7ee3d73adb1d78cf876e3b242c27a85e1faa35c5d7692f562",
+      "working_copy": "main/tables/17_covariate_adjusted_effects.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/11_directional_contributions.csv",
+      "sha256": "e210a44feb354d7a8f51d4fb3dc82a404ea949079537f82039a4a3eef5efcf7e",
+      "working_copy": "main/tables/11_directional_contributions.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/15_RSV_only_grade_patterns.csv",
+      "sha256": "dd83f3877ee60f20eaa42cc0d3bbb469a54f587d23f3cd4f7cbb3a9c9e7397e9",
+      "working_copy": "main/tables/15_RSV_only_grade_patterns.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/00_GSE246622_source_processing.csv",
+      "sha256": "21441db47391ee55599388c2de214d68a04d5a236a1f24ccf520e8e1c233a53b",
+      "working_copy": "main/tables/00_GSE246622_source_processing.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/21_common_member_sensitivity.csv",
+      "sha256": "23859dc8665177df3dd531ebea2eea07562f7c2fe9936a86126e5cbf09cf2ec6",
+      "working_copy": "main/tables/21_common_member_sensitivity.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/13_patient_deletion_influence.csv",
+      "sha256": "3eb808fa1edde70a2d19ef6e76dc061efd6f8a597757417b41ac134aaedac196",
+      "working_copy": "main/tables/13_patient_deletion_influence.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/01_clinical_source_manifest.csv",
+      "sha256": "6110d879522cd2cca0c1ef4b1f1a3ffb8f95e49c4ec4322409c3c2dfb189a241",
+      "working_copy": "main/tables/01_clinical_source_manifest.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/tables/28_patient_bootstrap_gene_map.csv",
+      "sha256": "b48a5882b9e2d75e2e170dd6dbf90221d63754a2d47189e76b76c3c0a3bbcf2f",
+      "working_copy": "main/tables/28_patient_bootstrap_gene_map.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE69606_log_expression.csv.gz",
+      "sha256": "26216221bac1df13d11d7ebc782fbdb795f43caec0dcee30a6596241f435497a",
+      "working_copy": "main/data/processed/GSE69606_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_RMA_metadata.csv",
+      "sha256": "4ce7261f31645b065ccf5062afe928a29b73a9b22e336fc9319dc280b6ed0a6f",
+      "working_copy": "main/data/processed/GSE246622_RMA_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_RMA_log_expression.csv.gz",
+      "sha256": "c3150af4b2cd04160e4f4c034ab380b6939ee920d0963d5cfb6efd44e4d39142",
+      "working_copy": "main/data/processed/GSE246622_RMA_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE105450_metadata.csv",
+      "sha256": "1f105beb96a189ebe2733417a2b0af0c56b69321f7d32330d87fbcc3bd9da0e5",
+      "working_copy": "main/data/processed/GSE105450_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/native_batch_workbook_core_probes.csv.gz",
+      "sha256": "eb0e2a6031868aee1460c3b0b91d9dc34235689992f2da70fd7a68ea64dec394",
+      "working_copy": "main/data/processed/native_batch_workbook_core_probes.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_batch_native_core_probes.csv.gz",
+      "sha256": "8ab4613b41ed58facfd611a58724cdc4980bbad9d38d757af4bb5057a7361994",
+      "working_copy": "main/data/processed/GSE246622_batch_native_core_probes.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_metadata.csv",
+      "sha256": "2693939336d7eeea0833889a76f18450c843c73dd8e482488e01069c51c6a161",
+      "working_copy": "main/data/processed/GSE246622_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_log_expression.csv.gz",
+      "sha256": "1545dcaf78e68317b9fa6202e7ffd8e6c49ef34452aa5d1e455c7eecffc659d2",
+      "working_copy": "main/data/processed/GSE246622_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE105450_log_expression.csv.gz",
+      "sha256": "7577a196bd21cd55fe2a7f54c55ca544e457058587e2bc62abf92f9af099a9f8",
+      "working_copy": "main/data/processed/GSE105450_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_RMA_gene_z.csv.gz",
+      "sha256": "81c1221fdf96f2faeac42a797a59f56315f61154635e3140ff16879ee355e0ff",
+      "working_copy": "main/data/processed/GSE246622_RMA_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE69606_gene_z.csv.gz",
+      "sha256": "93aaa2a920678fdbf3c82fa396d045562dd9253e06091ae1321f14e462b617a5",
+      "working_copy": "main/data/processed/GSE69606_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/native_RMA_workbook_core_probes.csv.gz",
+      "sha256": "a855d457bf167434b5eef1e69e11809ad4cad4d5872fb589ec45b3881a4e458e",
+      "working_copy": "main/data/processed/native_RMA_workbook_core_probes.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE105450_gene_z.csv.gz",
+      "sha256": "e2af1eb178700e249418b94747138bf8112fc1f5e766bd1e8d22acde9dcf3e94",
+      "working_copy": "main/data/processed/GSE105450_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE69606_metadata.csv",
+      "sha256": "9a8565d80834286906bba81c3dc6349a4f833de19092b5af28ffa22978d1e5de",
+      "working_copy": "main/data/processed/GSE69606_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/data/processed/GSE246622_gene_z.csv.gz",
+      "sha256": "85c55330d512ceabf1d87adc7680f60cd8989000782736483a1a4a5372429cad",
+      "working_copy": "main/data/processed/GSE246622_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/models/GSE105450_adjusted_design.csv",
+      "sha256": "8575cb0cf074acb58861b175ba6adca8a263744510402ba3d38cd618585c0cfb",
+      "working_copy": "main/models/GSE105450_adjusted_design.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/models/GSE105450_unadjusted_design.csv",
+      "sha256": "fdd0efe6c149f634997caaf8a5028db6496cf4c55772fac54d07d97355a7e93f",
+      "working_copy": "main/models/GSE105450_unadjusted_design.csv"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/05_independent_clinical_checks.R",
+      "sha256": "549ad98d6232f6a2035041412caba9d1ae3a7c1577ba2d336233f1a46876bbaf",
+      "working_copy": "audit/original_scripts/main/05_independent_clinical_checks.R"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/02_prepare_clinical_inputs.R",
+      "sha256": "0d0337c78e1e42d30f761340584825fe906e785b621b168f6742d8732da131b3",
+      "working_copy": "audit/original_scripts/main/02_prepare_clinical_inputs.R"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/06b_fetch_statistical_references.py",
+      "sha256": "54c5efe31922eb3c8980c5fe7f3da9fad0d9c7bce3727aa0559ab2ea8002c408",
+      "working_copy": "audit/original_scripts/main/06b_fetch_statistical_references.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/10_build_clinical_manuscript_sources.py",
+      "sha256": "1aff5d43ec1ef61b116428b600f9b1605d6c194c15e37cadfe6654aaf68d0c5a",
+      "working_copy": "audit/original_scripts/main/10_build_clinical_manuscript_sources.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/11_render_clinical_Word.py",
+      "sha256": "29d5baef54914ca571c0de017dcb633f227e9aca0126d886ffaefc4584cb868a",
+      "working_copy": "audit/original_scripts/main/11_render_clinical_Word.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/12_restore_PDF_navigation.py",
+      "sha256": "008a2117d55e330e5bcf56e490339d3e94f3a03e14eaf7270ac7484438e6f12b",
+      "working_copy": "audit/original_scripts/main/12_restore_PDF_navigation.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/06_fetch_clinical_reference_metadata.py",
+      "sha256": "5fe2a34154bb808a22323cc0094616c17eb0e54f9cbb2f77aa116e41c3c06803",
+      "working_copy": "audit/original_scripts/main/06_fetch_clinical_reference_metadata.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/03_verify_native_primary_matrices.py",
+      "sha256": "eda3fbf326874d7fb991ffe85b27f26cef478db45989f3c7c050ea54087bb5be",
+      "working_copy": "audit/original_scripts/main/03_verify_native_primary_matrices.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/01_freeze_clinical_plan.py",
+      "sha256": "b16e46d5e0dfa794598cc3323939d3491765b2e0e8ddd3418528e791e9e1c50f",
+      "working_copy": "audit/original_scripts/main/01_freeze_clinical_plan.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/04_analyze_clinical_CRRM388.py",
+      "sha256": "95f296c22df602fb6c9839189efdec325a385c3738eaf96fb1472360bae2e4bc",
+      "working_copy": "audit/original_scripts/main/04_analyze_clinical_CRRM388.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/08_prepare_clinical_key_tables.py",
+      "sha256": "c9718d867fba6a920a949ecb4dc0eda9ca2aa8ed6674d8345a841144deaa415a",
+      "working_copy": "audit/original_scripts/main/08_prepare_clinical_key_tables.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/05b_adjusted_functional_sensitivity.py",
+      "sha256": "f80979ee3520a83a422d97afd056532c8e1df3787579607d28e7f3a4ebe138c8",
+      "working_copy": "audit/original_scripts/main/05b_adjusted_functional_sensitivity.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/15_promote_clinical_revision.py",
+      "sha256": "8b2552720d896cf8f3e29228219a93096a1b665f52bc3f42fd5488d90beda15b",
+      "working_copy": "audit/original_scripts/main/15_promote_clinical_revision.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/07_plot_clinical_figures.py",
+      "sha256": "4d07e5aa987a6ebb34399d596d6fb3516b6d34c1afcead899a87393d8c1b26ab",
+      "working_copy": "audit/original_scripts/main/07_plot_clinical_figures.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/14_finalize_clinical_package.py",
+      "sha256": "692c3baebb1ea8ffe689c95364160b2cce047682bc274abcd40591bc80500c05",
+      "working_copy": "audit/original_scripts/main/14_finalize_clinical_package.py"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/09_build_clinical_key_workbook.R",
+      "sha256": "b9924965c74fadeb55c341d7de3331aeda2bffbb98c8d5176a32dfaee91a73e9",
+      "working_copy": "audit/original_scripts/main/09_build_clinical_key_workbook.R"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/00_inspect_clinical_inputs.R",
+      "sha256": "d89035d18fdee138b03d8a79859f1149384a230d573034839793e48269fca3bf",
+      "working_copy": "audit/original_scripts/main/00_inspect_clinical_inputs.R"
+    },
+    {
+      "path": "@workspace/phase20_Result3_clinical_analysis_20261112/scripts/13_verify_clinical_package.py",
+      "sha256": "4725cc341b5a2301e7444711960fd0fd062b21c8af09068d98393ffebf8170b5",
+      "working_copy": "audit/original_scripts/main/13_verify_clinical_package.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/primary_assembly_panel_annotation_amendment.json",
+      "sha256": "c0f112a72229ba4f10888ae88a992df4f6178a0e65f3cc81040996eec9817834",
+      "working_copy": "incremental/parameters/primary_assembly_panel_annotation_amendment.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/workbook_spec.json",
+      "sha256": "7a8793196f150c55a92a6c12cfc196392610e201c778ffe2eaa83127914b4bbc",
+      "working_copy": "incremental/parameters/workbook_spec.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/nominal_set_sizes.json",
+      "sha256": "f8c739a4246f143ce0bc7693484203fec1459be5d89e68288f277e9e2d5f3b18",
+      "working_copy": "incremental/parameters/nominal_set_sizes.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/frozen_CRRM388.csv",
+      "sha256": "a6d45a6a0fe5818f4215474fdf6fac7caa5207ab3182484027d885b10764652f",
+      "working_copy": "incremental/parameters/frozen_CRRM388.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/exploration_plan_v1.json",
+      "sha256": "9105e8d4612e86cdc74a65c2e8277fbd1b0076949724b874c202eb2cc8a7d200",
+      "working_copy": "incremental/parameters/exploration_plan_v1.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/published_panel_members.csv",
+      "sha256": "ab8b5ea96a32a3a587470d455699bf328e1ce58a661f67e7128497b6ee99e865",
+      "working_copy": "incremental/parameters/published_panel_members.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/resolved_score_members.csv",
+      "sha256": "1e089dad80681cc1a8425aa2a7371796fe17542c6a413c886ed89fa3d307d25e",
+      "working_copy": "incremental/parameters/resolved_score_members.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/declaration_receipt.json",
+      "sha256": "56cba7dd13955cfd6d5459cf47ff5c2425f201451867957426e7c3607a864151",
+      "working_copy": "incremental/parameters/declaration_receipt.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/execution_receipt.json",
+      "sha256": "324239968f731cb824a40fc0774c9721691d54a691b093b91777d48061e61a46",
+      "working_copy": "incremental/parameters/execution_receipt.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/frozen_functional_branches.csv",
+      "sha256": "82c72f51d9955899fd06c31439948f40b267f0b98aa6084b030d96b9de0b9030",
+      "working_copy": "incremental/parameters/frozen_functional_branches.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/parameters/nested_multiplicity_reporting_addendum.json",
+      "sha256": "f65aa8bc2d858f4f4dca392bc3d8bd0101ce31b2d5cd6e452f92784b883d4048",
+      "working_copy": "incremental/parameters/nested_multiplicity_reporting_addendum.json"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/00_comparator_symbol_resolution.csv",
+      "sha256": "86f7bbea54a097d0b127e3c7b575f2a78c1379b33ba5f5bf8e35d3c2bd3c59df",
+      "working_copy": "incremental/tables/00_comparator_symbol_resolution.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/05_exploratory_sample_scores.csv",
+      "sha256": "d9b200c7f72f6e55ca7ae7a561e13818298298505ab8ca91f539ebe768e78df1",
+      "working_copy": "incremental/tables/05_exploratory_sample_scores.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/08_conditional_clinical_models.csv",
+      "sha256": "f6407072978665b65f30f6a341f3f716f84e6a1732dd49dd775a583f818cc79e",
+      "working_copy": "incremental/tables/08_conditional_clinical_models.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/01_signature_overlaps.csv",
+      "sha256": "36ccf63ae1377ed828900ea7827741af3161801180302f324fdfff309ad968d1",
+      "working_copy": "incremental/tables/01_signature_overlaps.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/02_comparator_coverage.csv",
+      "sha256": "274111df0ac55b49af76834cd94f0c1b3f751ea162c46f2c6ac62b912ef070c9",
+      "working_copy": "incremental/tables/02_comparator_coverage.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/21_all_nested_models_Holm8_summary.csv",
+      "sha256": "30800ea44a885ca55913b14608bccbb4bc882f4ff9f446a399a44fecb4420e17",
+      "working_copy": "incremental/tables/21_all_nested_models_Holm8_summary.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/14_paired_recovery_ablation.csv",
+      "sha256": "fb8ac9278c34458401b43b39f1999a0548f03691dc1978aca0721e27c53b58aa",
+      "working_copy": "incremental/tables/14_paired_recovery_ablation.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/S4B_Stability.csv",
+      "sha256": "cf2c263b3ec3ae26cce21798c7d470d5d3afcd9a99a3db973743fc216dadab15",
+      "working_copy": "incremental/tables/S4B_Stability.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/03_author_CyTOF_cluster_frequencies.csv",
+      "sha256": "12efeeb1913cbe0a2fd58120d1c78dc94b83ca167cca1b0c8fce70dbe246dbe9",
+      "working_copy": "incremental/tables/03_author_CyTOF_cluster_frequencies.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/S4A_Models.csv",
+      "sha256": "d3517d7fa43d74a33fcba3b3e276ff595805c832f5d13bc2bc384bd24e9179b2",
+      "working_copy": "incremental/tables/S4A_Models.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/19_leave_one_unit_out_predictions.csv",
+      "sha256": "7f3a05072ae7f84dbd2e635b0b5ce9e1a8f4744e83be8dcbd0e27bc8f15070ea",
+      "working_copy": "incremental/tables/19_leave_one_unit_out_predictions.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/16_measured_composition_covariates.csv",
+      "sha256": "646bb9f186d884665a6c25c3977ab791fc3787b6191fb121729c3cc8249c2a1c",
+      "working_copy": "incremental/tables/16_measured_composition_covariates.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/S4C_Measurement.csv",
+      "sha256": "e7fcbd925606d9e8510a906dae28e9a59407e5f84f112dcedeed55ede6ef4792",
+      "working_copy": "incremental/tables/S4C_Measurement.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/06_score_eligibility.csv",
+      "sha256": "1aacefe2c2b52a3ba1aaacab06356ecbe3eea050f10b980afeafd818da20293f",
+      "working_copy": "incremental/tables/06_score_eligibility.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/S4D_Heldout.csv",
+      "sha256": "1689748498bab8145c942cbcf8f691f48ef2a97f436a7639515e64db2970ae95",
+      "working_copy": "incremental/tables/S4D_Heldout.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/13_score_correlations.csv",
+      "sha256": "ad102c05d971ca06d03723d420f52dc42a90182c4015ee8de1dd280cdd13db53",
+      "working_copy": "incremental/tables/13_score_correlations.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/09_direct_branch_difference.csv",
+      "sha256": "4d1d08db3ac6b3460d7f99b1971094bb0d2cade245e299285747dd0972ca9b8a",
+      "working_copy": "incremental/tables/09_direct_branch_difference.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/07_LCN2_ablation_effects.csv",
+      "sha256": "870d35c9e30602ffa4022b8b1f64129547fffc2f7a5c45776a0000908f4da516",
+      "working_copy": "incremental/tables/07_LCN2_ablation_effects.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/15_measured_composition_alignment.csv",
+      "sha256": "d259441d22ada7e5daa1df8ff9f50db2a6af2904f00924483b5e827ccfba8d0e",
+      "working_copy": "incremental/tables/15_measured_composition_alignment.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/00b_primary_assembly_override_probes.csv",
+      "sha256": "c3d5ef087b3c50a4b4645d659930527ef53a7b8e96c2ad54be31d1a479d79b6b",
+      "working_copy": "incremental/tables/00b_primary_assembly_override_probes.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/11_every_patient_omission_influence.csv",
+      "sha256": "744d63128fecbba12af72c0bfc5840dc0266f8b52a5dc33c99ee035c3e8af76f",
+      "working_copy": "incremental/tables/11_every_patient_omission_influence.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/20_descriptive_out_of_fold_comparison.csv",
+      "sha256": "c6481d65f736fad869013228607f55e5cea59d77334a7f51577c03d1ba9dac97",
+      "working_copy": "incremental/tables/20_descriptive_out_of_fold_comparison.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/12_all25_member_clinical_effects.csv",
+      "sha256": "4360ae643d9b431ac6db6e35c8ea255350fc528e27424839e848941961e592dd",
+      "working_copy": "incremental/tables/12_all25_member_clinical_effects.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/04_author_clinical_traits.csv",
+      "sha256": "9104a75b2f6ef630153b96f656374507d5dad6b8f6d0d44cfad16c97569de990",
+      "working_copy": "incremental/tables/04_author_clinical_traits.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/17_measured_composition_models.csv",
+      "sha256": "7cd755bf394f4d0f6943f1109976d661970a7032b6b1a63d5575edb48a46403d",
+      "working_copy": "incremental/tables/17_measured_composition_models.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/10_every_gene_omission_influence.csv",
+      "sha256": "198c99b4da2e8ce62119ce5683de17c4af289f20e9120a809d7e8421e70af0fb",
+      "working_copy": "incremental/tables/10_every_gene_omission_influence.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/tables/18_disjoint_expression_proxy_models.csv",
+      "sha256": "94800a8a3cf2fb04ef84ff7b481738354946ccc11e6e836796702521713a380e",
+      "working_copy": "incremental/tables/18_disjoint_expression_proxy_models.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE69606_target_gene_z.csv.gz",
+      "sha256": "8f6784083275219048ce5da6e08fa06d88c161c012a2340b106d891959e5253f",
+      "working_copy": "incremental/data/processed/GSE69606_target_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_target_gene_z.csv.gz",
+      "sha256": "8f06979eefe39ba82ea9d1346c13a187bda22893dc6065ca0ceff1ffae33e385",
+      "working_copy": "incremental/data/processed/GSE246622_target_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE105450_target_gene_z.csv.gz",
+      "sha256": "5100effa7e8fe8fa836a73d8141f667a3cde7418d48318af87ecec61ddffdd60",
+      "working_copy": "incremental/data/processed/GSE105450_target_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_RMA_metadata.csv",
+      "sha256": "8fdf776ca0598814fe670f55faba94dcb3b4a9544c7d8acdd16bf55fb58e7c98",
+      "working_copy": "incremental/data/processed/GSE246622_RMA_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE105450_metadata.csv",
+      "sha256": "00c2533cf7cf2a6781525ee83916b37dd4216909ab808ca85aad9ba97ce2da3e",
+      "working_copy": "incremental/data/processed/GSE105450_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_metadata.csv",
+      "sha256": "8b7443bbbf36eff21ae9ce3ccd3178867b01bd531b0bdc240d348587b4242d7e",
+      "working_copy": "incremental/data/processed/GSE246622_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE69606_target_log_expression.csv.gz",
+      "sha256": "f0052c0b50cf8c0f13556f82e30b17e649586035bcbad2fafec62a500488c855",
+      "working_copy": "incremental/data/processed/GSE69606_target_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_RMA_target_log_expression.csv.gz",
+      "sha256": "b6c1e680188a4ea749187f1b8cd26b228e4381dd9d67904bd3a3201866bac461",
+      "working_copy": "incremental/data/processed/GSE246622_RMA_target_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE69606_metadata.csv",
+      "sha256": "7b582a0a77f98eb919d4b1fd2335d4ad7d7be49da1169e9fa093643dc773f0c0",
+      "working_copy": "incremental/data/processed/GSE69606_metadata.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_target_log_expression.csv.gz",
+      "sha256": "818fc49f273a7061e555e5671abf430390e6b98df0e8eb467011d7af6cffb11b",
+      "working_copy": "incremental/data/processed/GSE246622_target_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE246622_RMA_target_gene_z.csv.gz",
+      "sha256": "bc003e8d3df4b4f6f53a12261a67da68b3cc84b4e19d7e2523e699dd29ca035b",
+      "working_copy": "incremental/data/processed/GSE246622_RMA_target_gene_z.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/processed/GSE105450_target_log_expression.csv.gz",
+      "sha256": "3efe0152f05c3c8dee1f5892e11afd8e173eb7b126e0ec649bc35dbf784d0c17",
+      "working_copy": "incremental/data/processed/GSE105450_target_log_expression.csv.gz"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24minusIFNUnion_Clinical.csv",
+      "sha256": "67d120300cb10e6438b3eb20abb96c581c7111221f938b8dbd0c45c4277c4678",
+      "working_copy": "incremental/models/GSE69606_CRRM24minusIFNUnion_Clinical.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRMDisjoint_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "e1c6b2a6b38a4966a6efc22018fbf101cf030be693c15fdf5a971455b92b9734",
+      "working_copy": "incremental/models/GSE69606_CRRMDisjoint_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "be9ded9d7515605407886ba5c80d4fbbf0b79b99ac2d50885ae49e93c7a8cb14",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRMDisjoint_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "c5d36f018b06d91e9de04b3652a3a5176f34f0ebe3b1e8f71abb53d91ea28a08",
+      "working_copy": "incremental/models/GSE105450_CRRMDisjoint_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical.csv",
+      "sha256": "cf626c8f641a7523646a685515a58f5d6be394f095a303be24b07deccd5c372e",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical_Zhang10.csv",
+      "sha256": "c9cbb0437ba5e493151d07cba3b86a8a60a072540fdf41c4147cd88096abdb06",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical_Zhang10.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical.csv",
+      "sha256": "960ef611334b1e4dd24385157130550ff55f99ab0043687577d32bdbb91e2876",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "7201efbddad309de703277e492071260eeeb48fb7237796bfc2670a74099766c",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical_Zhang10.csv",
+      "sha256": "0cb8a9196b619f8c1d013e468069bdc981091f54eaa48ce2228ebabf7ce664af",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical_Zhang10.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24minusIFNUnion_Clinical.csv",
+      "sha256": "78cf6cf0a5edb1aff9da242da6d20457525345dc3e91054afacf05768fd93391",
+      "working_copy": "incremental/models/GSE105450_CRRM24minusIFNUnion_Clinical.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical_IFNUnion.csv",
+      "sha256": "314d0624d63b932f915adc9cf700b543b8979287fa34be3524e706e476d33927",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical_Zhang10_IFNUnion_MCP2.csv",
+      "sha256": "0e65e5768e77589e05e2a57b45329cc21ebe290125c1460e0ea2124b06cf95bf",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical_Zhang10_IFNUnion_MCP2.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical_Zhang10_IFNUnion_MCP2.csv",
+      "sha256": "ca60785460aa5c2ae20e5390f68704d445f76571c8bdd6b0bf9c3617bb53bc80",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical_Zhang10_IFNUnion_MCP2.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical_ZhangSeverityPair_IFNUnion.csv",
+      "sha256": "fc732bdf7e51e8274697e819d75278495561f07c4aa31f861fb0102423b86047",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical_ZhangSeverityPair_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM24_Clinical_IFNUnion.csv",
+      "sha256": "6a37cb2292fb086469013145d7d033fbebd1356f04e921aaebdf1aa05c5d9f56",
+      "working_copy": "incremental/models/GSE105450_CRRM24_Clinical_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM24_Clinical_ZhangSeverityPair_IFNUnion.csv",
+      "sha256": "d15e9bcb563241c39fbf2889e94da6cb606e9200cf4834d177f27dc118f63d7f",
+      "working_copy": "incremental/models/GSE69606_CRRM24_Clinical_ZhangSeverityPair_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE69606_CRRM388_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "f54e4d07d76026e9fa50c6b906b2d9b80af549a4622e2a6b945b9e7e18ffc660",
+      "working_copy": "incremental/models/GSE69606_CRRM388_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/models/GSE105450_CRRM388_Clinical_Zhang10_IFNUnion.csv",
+      "sha256": "5a7eb04020cca46c43284b8524523ba8b1ec470b1342050a039e65a491dad656",
+      "working_copy": "incremental/models/GSE105450_CRRM388_Clinical_Zhang10_IFNUnion.csv"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/01_freeze_exploration.py",
+      "sha256": "7048b4f0146e02cd84c8ebaf18f42b0e3d65ca657355b043420e7e1f5204287a",
+      "working_copy": "audit/original_scripts/incremental/01_freeze_exploration.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/06_fetch_reference_metadata.py",
+      "sha256": "40a07a0414bf4211b9161506c7a6537882b2acee3d15bd0e1041740174c79b2c",
+      "working_copy": "audit/original_scripts/incremental/06_fetch_reference_metadata.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/11_render_exploratory_Word.py",
+      "sha256": "fc11fe6813c8ae934bd1f7967c930c0672f12f279dfdab001eb21f912904982e",
+      "working_copy": "audit/original_scripts/incremental/11_render_exploratory_Word.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/03_analyze_incremental_information.py",
+      "sha256": "5eec75f7ea7581d207c2408aebe9e9850c3c53ab1c157c60516d6c550bbb9dc2",
+      "working_copy": "audit/original_scripts/incremental/03_analyze_incremental_information.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/12_restore_PDF_navigation.py",
+      "sha256": "008a2117d55e330e5bcf56e490339d3e94f3a03e14eaf7270ac7484438e6f12b",
+      "working_copy": "audit/original_scripts/incremental/12_restore_PDF_navigation.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/02_prepare_comparison_inputs.R",
+      "sha256": "b788b0a21f8dbbea291845d814d8fa5e9c489222ea6c15396a432293cf937e00",
+      "working_copy": "audit/original_scripts/incremental/02_prepare_comparison_inputs.R"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/07_plot_exploratory_figure.py",
+      "sha256": "3927a689f9da8d4bf89e6156bf24194f71efcf33c394d3f84326a8414d2c4467",
+      "working_copy": "audit/original_scripts/incremental/07_plot_exploratory_figure.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/15_promote_exploration.py",
+      "sha256": "5c6332f12d35b35b9119ba8223a754b11285a877c1ff49e438b99d50e2a4d90e",
+      "working_copy": "audit/original_scripts/incremental/15_promote_exploration.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/08_prepare_key_workbook.py",
+      "sha256": "8e7aac4c0bb6f5eaebb6f2aa9ae748175dd3af3dd4e70a22d843e83c93b96ce9",
+      "working_copy": "audit/original_scripts/incremental/08_prepare_key_workbook.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/13_verify_package.py",
+      "sha256": "a445894e9df1ea64ae58a2d59ea6d4352092e437ac08d3fa2e596bfbfb921f38",
+      "working_copy": "audit/original_scripts/incremental/13_verify_package.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/05_independent_checks.R",
+      "sha256": "c2ee774c592442bbfd33d74079af5f2812aa4d46a1d82c3ff846e0c7e1f9fce7",
+      "working_copy": "audit/original_scripts/incremental/05_independent_checks.R"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/04_summarize_existing_models.py",
+      "sha256": "131b7ad2546f2f9b1049fa61c6dd51fcd444e841eb10be2c31e051719b6512d6",
+      "working_copy": "audit/original_scripts/incremental/04_summarize_existing_models.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/14_finalize_exploration.py",
+      "sha256": "454a6b662873dfae1736141965b4b2e5e30f1e50a07e6e5b2b86f640818b28dd",
+      "working_copy": "audit/original_scripts/incremental/14_finalize_exploration.py"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/09_build_key_workbook.R",
+      "sha256": "2c0411de24e864a518a740e858a3f9e0bbac7c0368a5b62018b095825ec43abb",
+      "working_copy": "audit/original_scripts/incremental/09_build_key_workbook.R"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/scripts/10_build_bilingual_sources.py",
+      "sha256": "e63b9ab120177adc752e42e8fbbfb01e224282be2ab04e5c7d9b24532c42ef8a",
+      "working_copy": "audit/original_scripts/incremental/10_build_bilingual_sources.py"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/intervention_gene_effects.csv",
+      "sha256": "ce28c2e38c19f20997cd31cedec2d7f51d2d9ba5856f6585c05da2dce0b5a984",
+      "working_copy": "host/results/intervention_gene_effects.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/mouse_epithelial_subtype_scores.csv",
+      "sha256": "23749c50465cbdb6f83a919987c76d49bd2f7d2fd74f4962d21c7da59439bc11",
+      "working_copy": "host/results/mouse_epithelial_subtype_scores.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/every_gene_omission.csv",
+      "sha256": "475b75212be404b6dcca115297282b7f27d768f9a89a9d83f6d234f3c2c9364f",
+      "working_copy": "host/results/every_gene_omission.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/clinical_gene_alignment_points.csv",
+      "sha256": "7b6905865a882f0ed69da079347902772577a7f17b8341fa0a9f4f4b6bdd02b3",
+      "working_copy": "host/results/clinical_gene_alignment_points.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/threshold_sensitivities.csv",
+      "sha256": "7723d9f6587e1f618d0dd0ed74775fe178c33f77b32d09f342cb4dbf23008213",
+      "working_copy": "host/results/threshold_sensitivities.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/mouse_identity_composition_effects.csv",
+      "sha256": "ad2df2c4026bed95d8b64d3d1c36513f0d53141fc12040221340f03f3dca9e61",
+      "working_copy": "host/results/mouse_identity_composition_effects.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/profile_scores.csv",
+      "sha256": "2e6dd13abbb9390ac60beda4b0b62e2cb5be2b6b388d1128de6ae8d8d41a5df2",
+      "working_copy": "host/results/profile_scores.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/mouse_epithelial_composition_scores.csv",
+      "sha256": "722ea986e1ae0523a1f71970d66563fac20ffe85986502f8fedd8576c63a6b6a",
+      "working_copy": "host/results/mouse_epithelial_composition_scores.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/measurement_coverage.csv",
+      "sha256": "d00a4958a06fe3499a86dc3931f4c0ad9346976b23c8ac1c2e2af5a551b7d4f9",
+      "working_copy": "host/results/measurement_coverage.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/score_effects.csv",
+      "sha256": "5f014602b71125a919bd1ac870af4ad20b2ea38ceccfbd449ed5a03880f2528a",
+      "working_copy": "host/results/score_effects.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/frozen_recovery_gene_vector.csv",
+      "sha256": "15e613199d8a7a250720289fec4bf9c9f2f1313d8439451d06e8101533006e73",
+      "working_copy": "host/results/frozen_recovery_gene_vector.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/results/clinical_gene_alignment.csv",
+      "sha256": "90de83bc55981c8aed229e730afad2c6130de44dfb2373776cf81ec5a61b9569",
+      "working_copy": "host/results/clinical_gene_alignment.csv"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/FigureS7_component_focus_r3_layout.json",
+      "sha256": "19a6a155784e4b0d3b764940d161b1b2d0c2a137dbe5de3cb7c23a5c8e4c7be4",
+      "working_copy": "host/figures/FigureS7_component_focus_r3_layout.json"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/Figure6_host_perturbation_r1_layout.json",
+      "sha256": "4339bd758d310d6d2f2c390cf0236558d2268da04effc6c143631358828a93d5",
+      "working_copy": "host/figures/Figure6_host_perturbation_r1_layout.json"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/Figure6_component_focus_r2_layout.json",
+      "sha256": "806d2c933e05752a79b5a3983b5d91a1d91471185f96990e082dd7b94e1a96eb",
+      "working_copy": "host/figures/Figure6_component_focus_r2_layout.json"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/Figure6_component_focus_r3_layout.json",
+      "sha256": "cc1b8ff4afa8052f65774a5995b6b4d19beab3698adb1bc059adbd37f6c40c90",
+      "working_copy": "host/figures/Figure6_component_focus_r3_layout.json"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/FigureS7_component_focus_r2_layout.json",
+      "sha256": "6db722d1120125d8f257d38713599167adf8b2a8cf87337173bc9ce721bde484",
+      "working_copy": "host/figures/FigureS7_component_focus_r2_layout.json"
+    },
+    {
+      "path": "@workspace/Result6_analysis/figures/FigureS7_host_perturbation_r1_layout.json",
+      "sha256": "156393494dff8939d9cc8555ffc0680af6de14087b29f89ce21eacf71830375a",
+      "working_copy": "host/figures/FigureS7_host_perturbation_r1_layout.json"
+    },
+    {
+      "path": "@workspace/Methods_audit/GSE246622_profile_specimen_visit_patient_r3.tsv",
+      "sha256": "e30dd0f9a873accf9feb4e8f905a8be45ebc558afc007e571bd12800390a3aee"
+    },
+    {
+      "path": "@workspace/Methods_audit/RESCEU_author_expression_metadata_r2.tsv",
+      "sha256": "ba8295f52a511e0f8f78b9c114ac145834e0aae3f9c7e63bc0ad0b43823096a8"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/public/RESCEU_downstreamAnalysis.R",
+      "sha256": "9f02ddbc3cb45bd57111fcfeb69c72f56506d2e9bf4daf5c7a1bc510d33d2b20"
+    },
+    {
+      "path": "@workspace/phase22_Result3_incremental_information_20261112/data/public/RESCEU_datTraits_counts.txt",
+      "sha256": "2f60233e7be5a3a4127bc83bea4f945fa03fe221410f16ecee9976272ed4b23c"
+    }
+  ]
+}

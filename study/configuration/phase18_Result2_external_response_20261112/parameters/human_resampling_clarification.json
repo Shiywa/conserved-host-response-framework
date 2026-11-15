@@ -1,0 +1,18 @@
+{
+  "declared_after_initial_scores": true,
+  "original_plan": "Donor-delta interaction label permutations within batch-transition strata",
+  "clarification": "This targets the secondary between-outcome interaction rather than the primary within-infected change. The original interaction sensitivity is retained separately.",
+  "added_primary_sensitivity": "Constrained-null donor-residual Rademacher flips for the adjusted within-infected change;19999 draws;not an exact permutation test",
+  "primary_model_and_estimand_changed": false,
+  "primary_P_changed": false,
+  "seven_test_Holm_family_changed": false,
+  "reason": "Align the additional primary sensitivity with the primary linear contrast;do not substitute the secondary interaction P for the within-infected primary P",
+  "declared_secondary_result": {
+    "declared_method_retained": "Eventual-outcome label permutation within batch-transition strata for the secondary infected-minus-uninfected change interaction",
+    "time_d": 3,
+    "n_pairs": 38,
+    "interaction_effect": 0.10885429269834815,
+    "Monte_Carlo_permutations": 19999,
+    "two_sided_P": 0.39425
+  }
+}

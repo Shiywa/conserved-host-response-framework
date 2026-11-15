@@ -1,0 +1,18 @@
+{
+  "severity": {
+    "n": 115,
+    "population": "115complete-case Severe/Mild profiles",
+    "df": 3,
+    "knots": [55, 177],
+    "boundary_knots": [10, 356],
+    "inherited_between_exploratory_folds": true,
+    "foldwise_spline_refit": false
+  },
+  "gene_effects": {
+    "n": 262,
+    "population": "262retained profiles in four clinical groups",
+    "df": 3,
+    "knots": [60, 186],
+    "boundary_knots": [10, 363]
+  }
+}

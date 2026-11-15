@@ -1,3 +1,4 @@
+"""Legacy v0.1.0 compatibility only; not evidence for current CRRM388 scoring."""
 from pathlib import Path
 from tempfile import TemporaryDirectory
 import unittest
@@ -12,7 +13,7 @@ from conserved_host_response.score import score_framework
 from conserved_host_response.validate import validate_scores
 
 
-class ToolkitTests(unittest.TestCase):
+class LegacyV010ToolkitTests(unittest.TestCase):
     def test_audit_detects_shared_controls_and_study_family(self):
         with TemporaryDirectory() as directory:
             root = Path(directory)

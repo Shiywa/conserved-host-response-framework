@@ -1,0 +1,6 @@
+# Observed processed-input replay environment; Python 3.12.13.
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+matplotlib==3.10.9
+PyYAML==6.0.3

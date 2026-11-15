@@ -1,0 +1,14 @@
+{
+  "amendment": "Numerical variance guard",
+  "threshold_reference_SD": 1e-08,
+  "scale": "Native normalized log expression",
+  "declared_after_initial_scores": true,
+  "reason": "Independent R/Python reconstruction detected numerical instability in machine-precision SDs of zero-count hamster blood genes",
+  "excluded_count": 20,
+  "affected_datasets": "PRJNA1271255_Blood",
+  "primary_contrasts_affected": 0,
+  "member_list_changed": false,
+  "outcome_based_selection": false,
+  "eligibility_gates_unchanged": true,
+  "replay_order": "01_prepare;01b_variance_guard;02_export;03_analysis;04_checks"
+}

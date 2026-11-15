@@ -1,0 +1,9 @@
+{
+  "declared_at": "2026-11-13T07:04:38.952699+00:00",
+  "trigger": "Two acute untreatedCOVID samples have fewer than30canonical monocytes, so not all53participants satisfy the original four-lineage eligibility",
+  "primary_threshold_unchanged": 30,
+  "cell_specific": "MonocyteRSVvsCOVID19vs15;other3lineages19vs17",
+  "composition": "Use complete four-lineage participants under the declared>=30cell threshold:19RSV,15COVID,17healthy,51total. Do not substitute15-cell sensitivity for primary.",
+  "known_primary_cross_virus_scores": true,
+  "primary_estimand_or_test_changed": false
+}

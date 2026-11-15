@@ -1,0 +1,12 @@
+{
+  "GSE119849": {
+    "RSV_related_profiles": 20,
+    "n_RSV": 10,
+    "n_control": 10,
+    "tissue": "lung",
+    "source_time_d": 2,
+    "unit": "individual mouse",
+    "evidence": "!Sample_characteristics_ch1 infection protocol in the hashed GSE119849 series matrix",
+    "role": "Source annotation confirmed during manuscript checking;the original primary contrast and all coefficients are unchanged"
+  }
+}

@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-title: "Conserved Host-Response Framework Toolkit"
-message: "Please cite the associated CRRM manuscript, when available, and this software version."
+title: "Conserved Host-Response Framework: CRRM388 study workflows"
+message: "Please cite this software version. Cite the associated CRRM manuscript separately when available."
 type: software
-version: 0.1.0
-date-released: 2026-07-29
+version: 0.2.0
+date-released: 2026-11-15
 authors:
   - family-names: "Liu"
     given-names: "Jing"

@@ -1,0 +1,358 @@
+{
+  "status": "DECLARED_BEFORE_NEW_CROSS_VIRUS_CRRM388_SCORING",
+  "declared_at": "2026-11-13T06:58:10.470290+00:00",
+  "question": "Shared respiratory-virus response versus virus-associated differences in the frozen CRRM; no diagnostic model or gene-set rebuilding",
+  "retrospective": true,
+  "known_results": "Results1–4 and historical70-gene analysis already known; no new388 multivirus scores/effects inspected before this declaration",
+  "core_members": 388,
+  "up": 280,
+  "down": 108,
+  "branches": 7,
+  "signatures": "Unchanged frozen members/signs/overlapping annotations and Hallmark membership components",
+  "specifications": [
+    {
+      "key": "Dallas_RSV_Healthy",
+      "source": "GSE38900_GPL6884",
+      "cell": "Whole blood",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "Clinical shared induction"
+    },
+    {
+      "key": "Dallas_Influenza_Healthy",
+      "source": "GSE38900_GPL6884",
+      "cell": "Whole blood",
+      "case": "Influenza",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "Clinical shared induction"
+    },
+    {
+      "key": "Dallas_Rhinovirus_Healthy",
+      "source": "GSE38900_GPL6884",
+      "cell": "Whole blood",
+      "case": "Rhinovirus",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "Clinical shared induction"
+    },
+    {
+      "key": "Dallas_RSV_Influenza",
+      "source": "GSE38900_GPL6884",
+      "cell": "Whole blood",
+      "case": "RSV",
+      "control": "Influenza",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "Dallas_RSV_Rhinovirus",
+      "source": "GSE38900_GPL6884",
+      "cell": "Whole blood",
+      "case": "RSV",
+      "control": "Rhinovirus",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "PBMC_B_cell_RSV_COVID",
+      "source": "Infant_PBMC",
+      "cell": "B_cell",
+      "case": "RSV",
+      "control": "COVID",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "PBMC_B_cell_RSV_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "B_cell",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_B_cell_COVID_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "B_cell",
+      "case": "COVID",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_T_cell_RSV_COVID",
+      "source": "Infant_PBMC",
+      "cell": "T_cell",
+      "case": "RSV",
+      "control": "COVID",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "PBMC_T_cell_RSV_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "T_cell",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_T_cell_COVID_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "T_cell",
+      "case": "COVID",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_NK_cell_RSV_COVID",
+      "source": "Infant_PBMC",
+      "cell": "NK_cell",
+      "case": "RSV",
+      "control": "COVID",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "PBMC_NK_cell_RSV_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "NK_cell",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_NK_cell_COVID_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "NK_cell",
+      "case": "COVID",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_Monocyte_RSV_COVID",
+      "source": "Infant_PBMC",
+      "cell": "Monocyte",
+      "case": "RSV",
+      "control": "COVID",
+      "paired": false,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "PBMC_Monocyte_RSV_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "Monocyte",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "PBMC_Monocyte_COVID_Healthy",
+      "source": "Infant_PBMC",
+      "cell": "Monocyte",
+      "case": "COVID",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "PBMC shared induction"
+    },
+    {
+      "key": "DC_RSV_Flu",
+      "source": "CD1c_DC",
+      "cell": "Dendritic_cell",
+      "case": "RSV",
+      "control": "Flu",
+      "paired": true,
+      "total_family": "Direct virus total"
+    },
+    {
+      "key": "DC_RSV_Untreated",
+      "source": "CD1c_DC",
+      "cell": "Dendritic_cell",
+      "case": "RSV",
+      "control": "Untreated",
+      "paired": true,
+      "total_family": "DC shared induction"
+    },
+    {
+      "key": "DC_Flu_Untreated",
+      "source": "CD1c_DC",
+      "cell": "Dendritic_cell",
+      "case": "Flu",
+      "control": "Untreated",
+      "paired": true,
+      "total_family": "DC shared induction"
+    },
+    {
+      "key": "DC_RSV_HK",
+      "source": "CD1c_DC",
+      "cell": "Dendritic_cell",
+      "case": "RSV",
+      "control": "RSV_HK",
+      "paired": true,
+      "total_family": "Heat-killed control"
+    },
+    {
+      "key": "UK_RSV_Healthy",
+      "source": "GSE42026",
+      "cell": "Whole blood",
+      "case": "RSV",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "Independent replication"
+    },
+    {
+      "key": "UK_Influenza_Healthy",
+      "source": "GSE42026",
+      "cell": "Whole blood",
+      "case": "Influenza",
+      "control": "Healthy",
+      "paired": false,
+      "total_family": "Independent replication"
+    },
+    {
+      "key": "UK_RSV_Influenza",
+      "source": "GSE42026",
+      "cell": "Whole blood",
+      "case": "RSV",
+      "control": "Influenza",
+      "paired": false,
+      "total_family": "Independent replication"
+    }
+  ],
+  "primary_clinical": "GSE38900 Dallas GPL6884 only:91 acuteRSV,16influenza,30rhinovirus,27healthy; Finland/Columbus not mixed into direct contrasts;21follow-ups excluded",
+  "independent_replication": "GSE42026 UK whole blood, independent recruitment institution and years; use exact deposited group labels; no forced pooling with Dallas; GSE34205 not needed as independent validation because age/batch and potential study-network overlap require separate resolution",
+  "PBMC": "Exact68-sample native GSM/sample identity reconciled to public GEO titles; acute untreated COVID=12moderate+5severe;19RSV;17healthy. Exclude10convalescent,4steroid-treated,1Other. Keep descriptor RNA scope; author-intent subset sensitivity explicitly retained.",
+  "DC": "Primary canonical Dendritic_cell,3donors; within-donor and same4/8/18h subtraction, equal average times per donor; common complete3-time pairs primary. Donors are n, not9donor-time strata. Monocyte supplementary if eligible; candidate basophil not used.",
+  "scoring": {
+    "arrays": "Deposited normalized expression; log2(max(x,0)+1)if99th percentile>100, median over unambiguous probes per gene; no outcome-based probe selection",
+    "single_cell": "Reuse Result4 mean log1p(10000*native_count/total_host_counts) and exact profile membership; do not recompute cell annotation or alter raw resources",
+    "reference": "One shared within-study gene mean/SD across primary groups, equal total weight per biological unit; canonical eligible profiles>=30cells. PBMC scaling now includes acute untreatedCOVID together with HC/RSV, a deliberate cross-virus reference distinct from Result4. No separately fitted virus scales.",
+    "eligibility": "SD>1e-8;total>=70%388,>=50%each arm;subsets>=5and>=50%nominal. Missing features never zero. Same feature set/reference for all contrasts within a source.",
+    "contributions": "Signed means;up/down member-count fractions add exactly to total. PositiveRTK/microtubule means movement in original down-defined direction, not pathway activation."
+  },
+  "inference": {
+    "primary": "Welch participant contrasts with95%tCI; paired donor t test on time-balanced donor deltas with95%tCI; two-sided",
+    "multiplicity": "Total direct-virus family BH7 across2Dallas+4PBMC+1DC contrasts. Branch differences separateBH49,IFN-list componentsBH14,up/downcontributionsBH14. Clinical shared-inductionBH3,PBMCsharedBH8,DCsharedBH2; independent replication totalBH3 and all7branchesx3contrasts BH21. Unavailable planned hypotheses retainedP=1 in family.",
+    "resampling": "19999studentized participant-label permutations(seed20261113)for primary direct total; exact sign flips for3donor DC; small-n exact minimumP=.25 is reported alongside model inference",
+    "gene_level": "All388 frozen hypotheses retained in BH776 family for2Dallasdirectvirus contrasts; unmeasuredP=1; no significance-in-one-group specificity rule. Lock entire discovery directional gene findings for UKRSVvsflu test before computing UKgene effects; validationBH388 retains full frozen family. PBMC/DC genes descriptive context only unless separate declared family.",
+    "sensitivities": "Age/sexHC3 within clinical group-pairs where individual data exist;common-age support; signed transcriptome-rank score without gene variance scaling; common-measured core;cell thresholds15/50; author-intent PBMC subset; four-lineage composition standardization;leave-one-participant/donor-out and gene-deletion leverage; detection-supported/PIGR check. Complete families retained."
+  },
+  "composition": "Observed versus fixed equal-healthy-participant four-lineage PBMC composition,restrictedB/T/NK/Monocyte;stratified participant bootstrap2000percentileCI,not cell bootstrap and not whole-blood mediation",
+  "interpretation": "No equivalence from nonsignificance, no IFN-independent term, no direct degranulation activity claim, no cross-study virus effect ranking, no claiming universal virus or RSV specificity from limited comparators",
+  "input_metadata_summary": [
+    {
+      "dataset": "GSE38900_GPL10558",
+      "site": "Columbus",
+      "condition": "Healthy",
+      "primary": false,
+      "samples": 8
+    },
+    {
+      "dataset": "GSE38900_GPL10558",
+      "site": "Columbus",
+      "condition": "RSV",
+      "primary": false,
+      "samples": 28
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Dallas",
+      "condition": "Healthy",
+      "primary": true,
+      "samples": 27
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Dallas",
+      "condition": "Influenza",
+      "primary": true,
+      "samples": 16
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Dallas",
+      "condition": "RSV",
+      "primary": true,
+      "samples": 91
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Dallas",
+      "condition": "Recovery",
+      "primary": false,
+      "samples": 21
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Dallas",
+      "condition": "Rhinovirus",
+      "primary": true,
+      "samples": 30
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Finland",
+      "condition": "Healthy",
+      "primary": false,
+      "samples": 4
+    },
+    {
+      "dataset": "GSE38900_GPL6884",
+      "site": "Finland",
+      "condition": "RSV",
+      "primary": false,
+      "samples": 16
+    },
+    {
+      "dataset": "GSE42026",
+      "site": "UK",
+      "condition": "Bacterial",
+      "primary": false,
+      "samples": 18
+    },
+    {
+      "dataset": "GSE42026",
+      "site": "UK",
+      "condition": "Healthy",
+      "primary": true,
+      "samples": 33
+    },
+    {
+      "dataset": "GSE42026",
+      "site": "UK",
+      "condition": "Influenza",
+      "primary": true,
+      "samples": 19
+    },
+    {
+      "dataset": "GSE42026",
+      "site": "UK",
+      "condition": "RSV",
+      "primary": true,
+      "samples": 22
+    }
+  ],
+  "inputs": [
+    {
+      "path": "@data/data/raw/GSE38900/GSE38900-GPL6884_series_matrix.txt.gz",
+      "sha256": "0ad9806c8f885f42f2fd7d6f0229d73ccb4b5d54b929379b8607cdd9d33fec50"
+    },
+    {
+      "path": "@data/data/raw/GSE38900/GSE38900-GPL10558_series_matrix.txt.gz",
+      "sha256": "290e6a7b9d49b2085432df61ab01d0ef5a07f3d21196a1dfdde9fd7e69a91c98"
+    },
+    {
+      "path": "@resource/CRRM_revision_work/Result5/data/GSE42026_series_matrix.txt.gz",
+      "sha256": "9a6674a066fbb517ae0d5ec18c67093a8b798120fe9fc78c444eb6cf254fa268"
+    }
+  ],
+  "frozen_sha256": "a6d45a6a0fe5818f4215474fdf6fac7caa5207ab3182484027d885b10764652f"
+}

@@ -1,0 +1,10 @@
+{
+  "surname": "Liu",
+  "format": "{surname} et al. Fig{number}",
+  "font": "Arial",
+  "font_pt": 12,
+  "right_mm": 202,
+  "top_mm": 1.5,
+  "basis": "User explicitly specified12pt for the upper-right author/figure identifier;Liu et al. previously confirmed",
+  "user_confirmed": true
+}

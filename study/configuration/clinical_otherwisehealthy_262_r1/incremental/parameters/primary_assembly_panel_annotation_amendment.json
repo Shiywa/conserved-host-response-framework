@@ -1,0 +1,23 @@
+{
+  "declared_at": "2026-11-12T13:39:51.946344+00:00",
+  "parent_plan_sha256": "9105e8d4612e86cdc74a65c2e8277fbd1b0076949724b874c202eb2cc8a7d200",
+  "declared_before_any_new_scores_or_tests": true,
+  "reason": "Installed annotation maps PADI4/ELANE to multiple Ensembl IDs despite one Entrez gene each. Official Ensembl GRCh38 lookup uniquely identifies the primary-chromosome genes. Without this correction the severity pair would be falsely unavailable.",
+  "rule": "Only the two published-panel genes PADI4 and ELANE are resolved using verified primary-assembly IDs. Rehabilitate only exact single-symbol, complete probes without author-ID conflicts and without author IDs; all other probe rules unchanged. Neither gene is a CRRM388 member, so existing CRRM measurements remain unchanged.",
+  "overrides": {
+    "PADI4": {
+      "human_ensembl": "ENSG00000159339",
+      "chromosome": "1",
+      "source_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/PADI4?content-type=application/json",
+      "source_sha256": "9987c2539b5908597741679c16cc5c3b71b9c59adb5cfa8ee3f6b718c029d315"
+    },
+    "ELANE": {
+      "human_ensembl": "ENSG00000197561",
+      "chromosome": "19",
+      "source_url": "https://rest.ensembl.org/lookup/symbol/homo_sapiens/ELANE?content-type=application/json",
+      "source_sha256": "2773887a173e49afb34b1ace9cdce1fa10261f2cad7b7c7bdf4b51e1eae970b4"
+    }
+  },
+  "frozen_members_changed": false,
+  "previous_results_inspected": "Only old Result3 and metadata/coverage; no new ablation or incremental test results computed"
+}

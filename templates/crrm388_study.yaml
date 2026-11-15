@@ -1,0 +1,36 @@
+# Declarative study contract; commands: study/WORKFLOWS.md.
+# Stage JSON parameters remain authoritative for study-specific native analyses.
+schema: crrm388-study-v1
+software_version: 0.2.0
+definition:
+  genes: study/frozen/crrm388_genes.tsv
+  subsets: study/frozen/crrm388_subsets.tsv
+  evidence: local_inputs/common_tested_discovery.tsv.gz  # supplied separately
+  members: 388
+  up: 280
+  down: 108
+  common_tested_background: 8607
+  models: [A549, mouse, cotton_rat]
+  concordant_models_required: 3
+  FDR_lt: 0.05
+  absolute_log2FC_gt: 0.58
+scoring:
+  signed: true
+  bulk_reference: equal-profile mean and sample SD
+  cellular_reference: equal biological-unit weight and weighted population SD
+  generic_sd_threshold: 1.0e-8
+  initial_human_sd_threshold: 0.0
+  initial_human_nonzero_raw_count_support: required
+  total_minimum_fraction: 0.70
+  direction_minimum_fraction: 0.50
+  subset_minimum_genes: 5
+  subset_minimum_fraction: 0.50
+  missing: omit without zero imputation
+clinical:
+  population: author-defined otherwise-healthy GSE246622
+  groups: {Healthy: 56, Mild: 79, Moderate: 91, Severe: 36}
+  reference_n: 262
+  strict_comparison_n: 115
+  reference_per_leave_one_fold: 261
+  training_cases_per_fold: 114
+  fixed_age_basis_across_folds: true

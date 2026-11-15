@@ -1,0 +1,190 @@
+{
+  "status": "FROZEN_BEFORE_NEW_CRRM388_SCORING",
+  "declared_at": "2026-11-13T02:24:08.863070+00:00",
+  "scope": "Use the Data Descriptor as the source backbone; all 15 sources audited; source-relative human expression localization across 13 source labels, followed by donor/participant-level within-source inference",
+  "exploratory_status": "Retrospective cellular analysis after bulk results and earlier historical 70-gene analyses were known; no new score outcomes used to select this protocol",
+  "all_resource_cells": 2474742,
+  "human_expression_cells": 2119831,
+  "human_source_labels": 13,
+  "animal_context": "Native namespaces and cells retained in audit; species projection required before cross-species CRRM scoring; animal effects not pooled with human inference",
+  "annotation": "Reuse frozen project canonical lineages; Berg epithelial subtypes imported only through exact full barcode and concordant donor/condition/time; candidate identities retain their evidence status",
+  "scoring": {
+    "input": "native source X counts; each cell log1p(10000 * host_gene_count / total_measured_host_counts)",
+    "aggregation": "mean normalized log expression per source study, biological unit, cell identity, condition and time; unresolved-unit observations retained for descriptive profiles only",
+    "features": "same frozen388 IDs and signs; common measured features within source; no missing-feature imputation",
+    "reference": "source study-relative gene means/SD across eligible canonical profiles, with equal total weight for each biological unit; exclude unresolved units in three inferential sources and exclude COVID/Other from PBMC inference scaling",
+    "numerical_SD_guard": 1e-08,
+    "total_eligibility": ">=70% of388 and >=50% of each frozen direction; branches >=5 genes and >=50% nominal membership",
+    "direction": "equal per-gene weights with the frozen up/down sign; positive signed change indicates alignment with the experimental response, not activation of every annotated pathway"
+  },
+  "minimum_cells_per_profile": 30,
+  "minimum_inferential_units": 3,
+  "primary_comparisons": [
+    {
+      "id": "PBMC_B_cell",
+      "source": "Infant_PBMC",
+      "view": "canonical",
+      "celltype": "B_cell",
+      "case": [
+        "Mild RSV",
+        "Moderate RSV",
+        "Severe RSV"
+      ],
+      "control": [
+        "Healthy"
+      ],
+      "design": "unpaired_participants",
+      "primary": true,
+      "case_units_metadata": 19,
+      "control_units_metadata": 17,
+      "paired_units_metadata": 0
+    },
+    {
+      "id": "PBMC_T_cell",
+      "source": "Infant_PBMC",
+      "view": "canonical",
+      "celltype": "T_cell",
+      "case": [
+        "Mild RSV",
+        "Moderate RSV",
+        "Severe RSV"
+      ],
+      "control": [
+        "Healthy"
+      ],
+      "design": "unpaired_participants",
+      "primary": true,
+      "case_units_metadata": 19,
+      "control_units_metadata": 17,
+      "paired_units_metadata": 0
+    },
+    {
+      "id": "PBMC_NK_cell",
+      "source": "Infant_PBMC",
+      "view": "canonical",
+      "celltype": "NK_cell",
+      "case": [
+        "Mild RSV",
+        "Moderate RSV",
+        "Severe RSV"
+      ],
+      "control": [
+        "Healthy"
+      ],
+      "design": "unpaired_participants",
+      "primary": true,
+      "case_units_metadata": 19,
+      "control_units_metadata": 17,
+      "paired_units_metadata": 0
+    },
+    {
+      "id": "PBMC_Monocyte",
+      "source": "Infant_PBMC",
+      "view": "canonical",
+      "celltype": "Monocyte",
+      "case": [
+        "Mild RSV",
+        "Moderate RSV",
+        "Severe RSV"
+      ],
+      "control": [
+        "Healthy"
+      ],
+      "design": "unpaired_participants",
+      "primary": true,
+      "case_units_metadata": 19,
+      "control_units_metadata": 17,
+      "paired_units_metadata": 0
+    },
+    {
+      "id": "Berg_Epithelial_cell",
+      "source": "Berg_ALI",
+      "view": "canonical",
+      "celltype": "Epithelial_cell",
+      "case": [
+        "inf"
+      ],
+      "control": [
+        "ctrl"
+      ],
+      "design": "within_donor_time_balanced",
+      "primary": true,
+      "case_units_metadata": 6,
+      "control_units_metadata": 6,
+      "paired_units_metadata": 6
+    },
+    {
+      "id": "Berg_Ciliated",
+      "source": "Berg_ALI",
+      "view": "author_epithelial",
+      "celltype": "Ciliated",
+      "case": [
+        "inf"
+      ],
+      "control": [
+        "ctrl"
+      ],
+      "design": "within_donor_time_balanced",
+      "primary": true,
+      "case_units_metadata": 3,
+      "control_units_metadata": 5,
+      "paired_units_metadata": 2
+    },
+    {
+      "id": "DC_Dendritic_cell",
+      "source": "CD1c_DC",
+      "view": "canonical",
+      "celltype": "Dendritic_cell",
+      "case": [
+        "RSV"
+      ],
+      "control": [
+        "Untreated"
+      ],
+      "design": "paired_donors",
+      "primary": true,
+      "case_units_metadata": 3,
+      "control_units_metadata": 3,
+      "paired_units_metadata": 3
+    },
+    {
+      "id": "DC_Monocyte",
+      "source": "CD1c_DC",
+      "view": "canonical",
+      "celltype": "Monocyte",
+      "case": [
+        "RSV"
+      ],
+      "control": [
+        "Untreated"
+      ],
+      "design": "paired_donors",
+      "primary": true,
+      "case_units_metadata": 3,
+      "control_units_metadata": 3,
+      "paired_units_metadata": 3
+    }
+  ],
+  "error_control": {
+    "total": "BH8 across eight declared total-score comparisons; unavailable comparisons retained as P=1 in the family",
+    "branches": "BH56 across seven fixed overlapping branches and eight declared comparisons",
+    "additional_components": "separate BH16 for IFN-list-overlap and outside-list scores across the eight comparisons",
+    "secondary": "Berg bystander/control and infected/bystander; PBMC Severe/Mild; covariate-adjusted PBMC estimates and LCN2 omission each retain separate declared reporting families; no choosing minimum P across methods"
+  },
+  "inference": {
+    "primary": "paired t for biological-unit contrasts and Welch t for independent participants; pointwise95% t intervals",
+    "Berg": "first subtract case/control within donor and the same time point; equally average eligible matched-time contrasts within each donor; one inferential observation per donor",
+    "sensitivities": "exact donor sign flips; patient-label resampling; minimum-cell thresholds15/50; complete common-time comparisons; author-intent population where mapped; no cell-level biological replication"
+  },
+  "composition": {
+    "population": "36 Healthy/RSV participants; four common B/T/NK/Monocyte lineages with adequate observed cells in every patient",
+    "observed": "sample mean score using observed fractions within the four-lineage compartment",
+    "standardized": "same cell-lineage means weighted by the equal-patient mean healthy lineage composition",
+    "uncertainty": "stratified patient bootstrap; no causal mediation or exact whole-blood attribution"
+  },
+  "source_overlap": "Berg/Infant_PBMC legacy copies are aliases of the same descriptor source, never additional validation studies; HLCA components retained by original study_id; healthy/history/memory/post-exposure sources keep their original roles",
+  "CRRM388_scores_computed": false,
+  "metadata_audit_receipt_sha256": "48a57c48ca10decb530e80097ba98f836af2eb1ce7b96a22a923a429f31cfb6c",
+  "frozen_genes_sha256": "a6d45a6a0fe5818f4215474fdf6fac7caa5207ab3182484027d885b10764652f",
+  "functional_branches_sha256": "82c72f51d9955899fd06c31439948f40b267f0b98aa6084b030d96b9de0b9030"
+}

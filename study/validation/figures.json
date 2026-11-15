@@ -1,0 +1,67 @@
+[
+  {
+    "figure": "Fig1",
+    "sha256": "ba4d388fe5f9013839dd2f286f0f498d57b089ec5fd7030b79be8669901dba74",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "Fig2",
+    "sha256": "a1edeafcdfdda9de46c1230201fb36e165c49033e48b7bec3860f51c261eed2a",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "Fig3",
+    "sha256": "5d4e6d4c42b26338773c834a02e7b1d07850b1dbfd1b0425d3d93dbcb42dc2be",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "Fig4",
+    "sha256": "2045a8578020e299192094e1eb78d6837f1ca59754d12456ea2dc3069cf82330",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "Fig5",
+    "sha256": "d2b6deaa04fe80b677c14330fc5f3b969053cdc79540b389da369001f991196a",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "Fig6",
+    "sha256": "40a3150c833507ddefbc6cec13efa268fb10480d663c843b5ebbfd0416581311",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS1",
+    "sha256": "d54f996d5c420acfc9f2433da005643a33ebd9b1ad3b3042bf3d1ea4c89186a7",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS2",
+    "sha256": "d7c4892006b632a77a9b08a95c7654b945be16a7a2eb5b74695b683684c67ef5",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS3",
+    "sha256": "0768c7dc29bcd9d167c6845048cae318b63fb386719cf7e462e8b8e46ed48efd",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS4",
+    "sha256": "dfc2049d10f98b821141025a58b94cff85dc4df00d95e4641382ec1ac23b4cd3",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS5",
+    "sha256": "bf7e9394722fa244a976be04434a4ff6e84c80d52847519d29a6bf89e61f55bd",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS6",
+    "sha256": "285a139593f66089bc44114170c96fcf506361d49b233016df60f96f29584c4d",
+    "PNG_byte_identical_to_current_author_figure": true
+  },
+  {
+    "figure": "FigS7",
+    "sha256": "0b63d256fb0b8db1fafd934d1be88b1d9f5b0ff0482e874905eecd1157ac0c29",
+    "PNG_byte_identical_to_current_author_figure": true
+  }
+]

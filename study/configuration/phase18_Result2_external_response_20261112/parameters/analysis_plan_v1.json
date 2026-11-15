@@ -1,0 +1,248 @@
+{
+  "version": "Result2_v1_before_new388_external_scoring",
+  "declared_at": "2026-11-12T10:34:09.063126+00:00",
+  "language": "American English for all authored English prose,figure labels,and table text",
+  "scope": "FirstCRRMmanuscript Result2:external response replication,transportability,and contextual heterogeneity;no newCRRMselection,no severity analysis,no single-cell jobs",
+  "members": {
+    "n": 388,
+    "up": 280,
+    "down": 108,
+    "source": "@workspace/phase05_mapping_corrected_reconstruction/construction/experimental_consensus/all_three_families_supported.csv",
+    "sha256": "fbcbb09193997e23973fff725c3e662e4101debd63cfdf5c8468dd11ccf79f4d"
+  },
+  "inputs": [
+    {
+      "path": "@workspace/phase05_mapping_corrected_reconstruction/construction/experimental_consensus/all_three_families_supported.csv",
+      "bytes": 109484,
+      "sha256": "fbcbb09193997e23973fff725c3e662e4101debd63cfdf5c8468dd11ccf79f4d"
+    },
+    {
+      "path": "@workspace/phase16_identifier12pt_20261112/tables/06_all388_annotation_edges.csv",
+      "bytes": 6053895,
+      "sha256": "65588eb2346c70891c05da52ec8002cd38fdc169a5d836aaf775833cfc267fb7"
+    },
+    {
+      "path": "@workspace/phase02_crrm_reconstruction/mapping/babelgene22.9_mouse_human_one_to_one.csv",
+      "bytes": 2901723,
+      "sha256": "a8c425081201941f65a97667a95bbf0abb6df0744439b5db1afee6c7d28658e7"
+    },
+    {
+      "path": "@data/data/raw/postfreeze_cross_system_validation/GSE112956_series_matrix.txt.gz",
+      "bytes": 7395502,
+      "sha256": "b7bc0d7e9ba6ff8ac29b57840994fe0e7743a2e5a31bb88204840f7239c4182b"
+    },
+    {
+      "path": "@data/data/raw/postfreeze_cross_system_validation/GSE119849_series_matrix.txt.gz",
+      "bytes": 9862140,
+      "sha256": "fde6e8ff55ace25f3552a4fbff75062d4163a3211214284a3c919cf4f8446b2d"
+    },
+    {
+      "path": "@data/data/raw/postfreeze_cross_system_validation/GSE18170_series_matrix.txt.gz",
+      "bytes": 2433767,
+      "sha256": "fe93bed14c9e1e41f7c6b8931b8cc7cd53bf040b91fe0c2514370970f0b6bdc7"
+    },
+    {
+      "path": "@data/data/raw/postfreeze_cross_system_validation/GSE247298_RAW.tar",
+      "bytes": 111157248,
+      "sha256": "ebb8cc4c634d7880e701522dd45d102afffc47ed844bebb72aa6c13613276781"
+    },
+    {
+      "path": "@data/data/metadata/postfreeze_cross_system_validation/GPL1261.annot.gz",
+      "bytes": 8389179,
+      "sha256": "394c103cf4ca99500d06369e4fb2b9b9bffc2c10fd3cbeb0b0d64c51c3fc95f8"
+    },
+    {
+      "path": "@data/data/metadata/postfreeze_cross_system_validation/GPL17543_platform.txt",
+      "bytes": 65186695,
+      "sha256": "635e651cb91f1a0f81a0e3a1454c148b5236bc4acc7f5d638d7dc8c689f5f5c0"
+    },
+    {
+      "path": "@data/data/metadata/postfreeze_cross_system_validation/GPL7202.annot.gz",
+      "bytes": 8857389,
+      "sha256": "bd2f3199bea338b87d12b41f451ea899ac3e52bc5fb62d8e935514504e45c62d"
+    },
+    {
+      "path": "@data/data/processed/postfreeze_cross_system_validation/PRJNA1271255_Zenodo15953852/raw_counts_gene_id.csv.gz",
+      "bytes": 1001317,
+      "sha256": "ebde98366b9cc59a7dd2b6298e544d7c515537e169f8382af1ec7e00d06d9d58"
+    },
+    {
+      "path": "@data/data/processed/postfreeze_cross_system_validation/PRJNA1271255_Zenodo15953852/gene_annotation.csv",
+      "bytes": 8360293,
+      "sha256": "caea0dacd1b8d46aeb852a16f4813b103a9210b1e36d32c5b1a68ae687d54723"
+    },
+    {
+      "path": "@data/data/processed/postfreeze_cross_system_validation/PRJNA1271255_Zenodo15953852/sample_metadata.csv",
+      "bytes": 7730,
+      "sha256": "11e89c77a9d3ba3988f16a457b83657be27f6182be6c3df9fd3419aa9ee4da50"
+    },
+    {
+      "path": "@data/data/processed/next_batch/GSE140226_Mouse_lung_processed/GSE140226_Mouse_lung_processed_expression_matrix.csv",
+      "bytes": 7263985,
+      "sha256": "88d5a3ef75afaca0e17c4fa17c0da265a61248e683074368188191f005c050e4"
+    },
+    {
+      "path": "@data/data/processed/next_batch/GSE140226_Mouse_lung_processed/GSE140226_Mouse_lung_processed_gene_annotation.csv",
+      "bytes": 2827621,
+      "sha256": "fdcfb409c2ae8bb0d424eb6d87a12dc56709a14c9cbd77b325a9760a858bf5e9"
+    },
+    {
+      "path": "@data/data/processed/next_batch/GSE140226_Mouse_lung_processed/GSE140226_Mouse_lung_processed_sample_metadata.csv",
+      "bytes": 3448,
+      "sha256": "a0c8004adf3abd4a0e332e173d8a61984f2184af89cb6cc2f51da1fa7783d7fb"
+    },
+    {
+      "path": "@data/data/raw/GSE155237/GSE155237_gene_counts.csv.gz",
+      "bytes": 3494959,
+      "sha256": "6e4049683d6dfc03a4a4d8ed9f080f2a7e22c28fd118640a2a92c4c81749081d"
+    },
+    {
+      "path": "@data/data/raw/GSE166161/GSE166161_gene_counts.csv.gz",
+      "bytes": 1330933,
+      "sha256": "0e4a4e71f0bcf250e13e6695d8e63ae4addbd7d712e3ca50e897b8ee6a3a32ee"
+    },
+    {
+      "path": "@workspace/phase01_sample_manifest/tables/06_human_challenge_104_record_manifest.csv",
+      "bytes": 84373,
+      "sha256": "ad12075c5b4d96c64ccfddf9a03c2b219e426a435fc55abfeb60f0ac8bc30b36"
+    },
+    {
+      "path": "@workspace/phase01_sample_manifest/tables/07_human_challenge_91_unique_specimens.csv",
+      "bytes": 73251,
+      "sha256": "73d0cef50697873d8d80364240c971b9b0b6e44730ede1576cfb90dafa549fba"
+    },
+    {
+      "path": "@workspace/phase01_sample_manifest/tables/10_human_primary_D3_76_libraries.csv",
+      "bytes": 60866,
+      "sha256": "593334ed974fdbd2492ff664a5f0c4ba943c6aa95dabdbc6d410097edf3e6b1a"
+    }
+  ],
+  "mapping": {
+    "mouse": "Frozen babelgene22.9 min3 one-to-one Ensembl graph;source probes/transcripts must resolve to one native gene;median log abundance for multiple unambiguous probes",
+    "human": "Exact human Ensembl IDs;RefSeq transcripts require unique full-reference human Ensembl mapping before summingTPM",
+    "hamster": "Author gene-symbol projection with unique case-insensitive source/human links;qualified projection,not genome-wide orthology"
+  },
+  "measurement": {
+    "counts": "TMM log2CPM with prior.count1",
+    "airway247298": "Sum TPM of uniquely mapped RefSeq transcripts per human gene,then log2(TPM+1)",
+    "array": "Use supplied log expression;log2(x+1) only if99th percentile>100",
+    "mouse140226": "Median transcript-level log2(processed abundance+1) per unambiguous native gene;not a count likelihood"
+  },
+  "scaling": {
+    "rule": "Within-dataset gene z scores from a fixed primary reference block;all score signs fixed;no expression imputation",
+    "references": {
+      "GSE247298": "24nonCF profiles across0,12,24,48,72,120h;projectCF on this same scale",
+      "GSE112956": "Vehicle+RSVD1 across all5strains;projectD5",
+      "GSE119849": "RSV-related arms only",
+      "GSE140226": "UntreatedD5mock+RSV;projectuntreatedD7",
+      "GSE18170": "WTmock+RSV only",
+      "PRJNA1271255": "NC+MOCK independently for each tissue;excludeHIRSV",
+      "Human_challenge": "76exactD0/D3pairedprofiles;projectD7using the same mean/SD"
+    }
+  },
+  "eligibility": {
+    "primary_min_total_fraction": 0.7,
+    "primary_min_fraction_each_direction": 0.5,
+    "min_units_per_arm": 2,
+    "functional_min_genes": 5,
+    "functional_min_fraction": 0.5,
+    "policy": "Coverage gates applied before seeing score outcomes;retain failures in audit and descriptive outputs;no exclusion for a weak/opposite effect"
+  },
+  "primary_contrasts": [
+    {
+      "key": "Airway24h",
+      "dataset": "GSE247298",
+      "family": "GSE247298",
+      "contrast": "NonCF24h minus donor0h",
+      "design": "paired4donors",
+      "time_reference": "Baseline only;no parallel mock trajectory"
+    },
+    {
+      "key": "Mouse_multistrain_D1",
+      "dataset": "GSE112956",
+      "family": "GSE112956",
+      "contrast": "Equal-strain averageRSVD1 minus vehicleD1",
+      "design": "OLSstrain+RSV;5strains,3animals per cell"
+    },
+    {
+      "key": "Mouse119849",
+      "dataset": "GSE119849",
+      "family": "GSE119849",
+      "contrast": "RSV disease versus RSV study controls only",
+      "design": "Independent groups"
+    },
+    {
+      "key": "Mouse140226_D5",
+      "dataset": "GSE140226",
+      "family": "GSE140226",
+      "contrast": "UntreatedRSVD5 minus mockD5",
+      "design": "Independent groups"
+    },
+    {
+      "key": "Mouse18170",
+      "dataset": "GSE18170",
+      "family": "GSE18170",
+      "contrast": "WTRSV minus WTmock",
+      "design": "Independent groups"
+    },
+    {
+      "key": "Hamster_lung",
+      "dataset": "PRJNA1271255_Lung",
+      "family": "PRJNA1271255",
+      "contrast": "MOCK-immunized thenHRSV versusNC",
+      "design": "Independent4+4;lungprimary,bloodsecondary"
+    },
+    {
+      "key": "Human_D3",
+      "dataset": "Human_challenge",
+      "family": "GSE155237_GSE166161",
+      "contrast": "D3-baseline change among22eventual-infected participants",
+      "design": "OLSdonor+post+post_infected+batch;38pairedparticipants;uninfectedchange and interaction separately reported"
+    }
+  ],
+  "inference": {
+    "primary": "Prespecified model-based mean signed-score changes with95%tCIs;pairedt or Welch t as appropriate,strain-adjustedOLS for112956,donor/batch-adjustedOLS for challenge",
+    "primary_error_control": "Holm across7planned primary total-score tests;unavailable comparisons do not reduce the family size",
+    "permutation_sensitivity": "Exact paired sign flips for<=15donors and exact independent allocations for<=100000combinations;otherwise19999fixed-seed permutations,stratified for112956;human challenge donor-delta interaction permutations within batch-transition strata",
+    "functional_error_control": "BH across49planned primary branch-by-contrast tests;functional subsets are fixed overlapping annotations,not new disjoint modules",
+    "secondary": "BH separately over declared time/strain contrasts and component comparisons;do not replace primaryP with the smallest alternativeP"
+  },
+  "gene_direction": "Frozen-direction multiplier times external log-expression coefficient;all mapped variable genes retained in denominator;no DEG filter,no binomial inference treating genes as independent",
+  "sensitivities": [
+    "Cross-study common measured-member restriction with fixed signs and original gene z scores;report actual up/down coverage",
+    "Exact additive decomposition into up and sign-reversed down contributions weighted by measured member counts",
+    "Whole-donor/animal deletion influence in the primary contrast;all related profiles removed together,scaling kept fixed to isolate model influence",
+    "D7human challenge13pairs within the same family;no second cohort claim",
+    "CF/nonCFdonor trajectories relative to own0h;secondary background comparison",
+    "Function-specific measured coverage and predeclared coverage gates"
+  ],
+  "figures": {
+    "Figure2": [
+      "Aprimaryscoreforest",
+      "Bgene-effectconcordance",
+      "Cup/downweightedcontributions",
+      "Dfunctionalbranchresponse",
+      "EnonCFairwaytimecourse",
+      "Fmousehoststrainandtime",
+      "GhumanD0/D3pairedresponse"
+    ],
+    "FigureS2": [
+      "Amembercoverage",
+      "Bcommonsubsetscoreeffects",
+      "Cfunctionalcoverage",
+      "DhumanD7",
+      "ECF/nonCFresponse",
+      "Fdeletioninfluence"
+    ]
+  },
+  "display": {
+    "width_mm": 210,
+    "height": "Compact natural height;one layout only",
+    "ordinary_font": "Arial7pt",
+    "panel_letters": "Arialbold12pt",
+    "upper_right": "Liu et al. Fig2 /Liu et al. FigS2,Arial12pt",
+    "no_workflow_panel": true,
+    "no_heatmap_cell_numbers": true
+  },
+  "interpretation": "Retrospective external re-evaluation;legacy70results have been seen;no universal response,RSVspecificity,clinicalprediction,or causal-time claim;report unsupported contexts without tuning388"
+}

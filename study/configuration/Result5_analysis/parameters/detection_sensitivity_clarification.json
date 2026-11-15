@@ -1,0 +1,7 @@
+{
+  "declared_at": "2026-11-13T07:03:58.663782+00:00",
+  "new_cross_virus_effects_inspected": false,
+  "trigger": "Initial input preparation detected a conflict between primary full-core coverage eligibility and an intentionally expression-restricted sensitivity",
+  "rule": "Primary measurement thresholds unchanged. Expression-supported total sensitivity is a conditional mean over the fixed supported subset, requiring at least5members in each direction; report subset size. Branches retain >=5and50%nominal. This does not redefine CRRM or replace its primary score.",
+  "primary_analysis_changed": false
+}

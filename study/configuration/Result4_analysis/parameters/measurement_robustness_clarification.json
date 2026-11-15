@@ -1,0 +1,9 @@
+{
+  "declared_at": "2026-11-13T02:56:52.257703+00:00",
+  "before_inspection_of_measurement_sensitivity_results": true,
+  "primary_cellular_results_already_known": true,
+  "rank_definition": "(average transcriptome rank - 1)/(number of common host features - 1), centered at0.5",
+  "source_shared_mask": "Union of expression-supported genes across the canonical cell identities already declared for inference in that source; use the SAME mask for all its cell identities, permitting composition sensitivity without cell-specific score definitions",
+  "gene_support": ">=10% detected cells in >=3 units within any declared canonical identity; same primary gene-Z reference; no new core membership",
+  "primary_results_changed": false
+}

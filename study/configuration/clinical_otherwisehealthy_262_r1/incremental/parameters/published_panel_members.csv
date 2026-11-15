@@ -1,0 +1,13 @@
+set_name,symbol,source,score_definition
+Zhang10,CEACAM8,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,PADI4,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,LTF,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,MPO,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,LCN2,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,BPI,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,PGLYRP1,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,CAMP,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,ELANE,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+Zhang10,ARG1,Zhang et al.2026; DOI10.1128/spectrum.02591-25; published10hubgenes,Equal-weight mean gene-z comparator constructed here; not a published fitted classifier
+ZhangSeverityPair,ARG1,Same publication;ARG1/PADI4 severity pair,Equal-weight mean gene-z sensitivity; original ROC coefficients unavailable
+ZhangSeverityPair,PADI4,Same publication;ARG1/PADI4 severity pair,Equal-weight mean gene-z sensitivity; original ROC coefficients unavailable

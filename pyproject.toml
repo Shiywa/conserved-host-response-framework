@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "conserved-host-response-framework"
-version = "0.1.0"
-description = "Configuration-driven construction, freezing, scoring, and validation of conserved host-response frameworks"
+version = "0.2.0"
+description = "Frozen signed CRRM388 definition, scoring, and reproducible RSV manuscript analyses"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
@@ -27,6 +27,11 @@ Issues = "https://github.com/Shiywa/conserved-host-response-framework/issues"
 
 [project.scripts]
 chrf = "conserved_host_response.cli:main"
+crrm388 = "conserved_host_response.current_cli:main"
+
+[project.optional-dependencies]
+study = ["matplotlib>=3.10,<3.11"]
+atlas = ["anndata", "pyarrow", "h5py"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

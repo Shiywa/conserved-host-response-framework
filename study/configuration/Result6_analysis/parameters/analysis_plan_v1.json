@@ -1,0 +1,194 @@
+{
+  "version": "host_perturbation_r1",
+  "declared_at": "2026-11-13T15:17:29.744674+00:00",
+  "status": "FROZEN_BEFORE_NEW_CRRM388_SCORING",
+  "objective": "Test perturbation responsiveness and direct component differences within frozen CRRM388; use clinical associations as a separate cross-context comparison",
+  "design": {
+    "human": "12 independent experimental replicates, not 12 donors; unpaired 4 vs 4 intervention comparison. Baseline deposited as 0h; no uninfected drug arm. No intervention-by-infection interaction or restoration claim.",
+    "mouse": "Frozen 84967-cell source, 11 lung source units (4 uninfected vehicle, 3 RSV vehicle, 4 RSV TMX/RelA CKO), day21; no uninfected TMX arm in these transcriptomes. Not an acute replication of the human drug contrast.",
+    "missing_mouse_sample": "GSM8842521 / library225 is in GEO but absent from the frozen descriptor; retain existing resource subset without adding a fourth infected control.",
+    "human_columns": "Order reconstruction AB1..4 baseline, AB5..8 RSV, AB9..12 RSV+ZL0454; retained as an explicit metadata assumption and corroborated against published marker patterns."
+  },
+  "normalization": {
+    "human": "log2(1+author-deposited normalized abundance/TPM); never DESeq2 on this decimal matrix; all12 profiles form one study-specific gene mean/sample-SD reference.",
+    "mouse": "native probe counts -> per-cell log1p(10000*host_counts/total_host_counts) -> mean per animal and canonical lineage; all11 prespecified complete lineages form one shared study reference with equal total weight per animal; population weighted SD, guard1e-8.",
+    "rank": "Per-profile signed within-transcriptome average percentile rank; distinct score units; no gene-z/rank effect pooling.",
+    "eligibility": "total >=70%388 and >=50% each original direction; branches >=5 and >=50% frozen members; primary mouse >=30 cells/profile and >=3 animals/group; thresholds15/50 are separate checks."
+  },
+  "frozen_gene_count": 388,
+  "directions": {
+    "up": 280,
+    "down": 108
+  },
+  "annotations": "Seven original overlapping subsets and original 79/309 IFN-list partition; no new signature or outcome-selected members",
+  "primary_lineages": [
+    "B_cell",
+    "Dendritic_cell",
+    "Endothelial_cell",
+    "Epithelial_cell",
+    "Fibroblast",
+    "Macrophage",
+    "Monocyte",
+    "Mural_cell",
+    "NK_cell",
+    "Neutrophil",
+    "T_cell"
+  ],
+  "comparisons": [
+    {
+      "key": "BRD4_Airway",
+      "source": "BRD4_hSAEC",
+      "celltype": "Airway epithelium",
+      "case": "RSV + BRD4i",
+      "control": "RSV",
+      "context_case": "RSV",
+      "context_control": "Uninfected baseline",
+      "n_case": 4,
+      "n_control": 4
+    },
+    {
+      "key": "RelA_B_cell",
+      "source": "RelA_mouse",
+      "celltype": "B_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Dendritic_cell",
+      "source": "RelA_mouse",
+      "celltype": "Dendritic_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Endothelial_cell",
+      "source": "RelA_mouse",
+      "celltype": "Endothelial_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Epithelial_cell",
+      "source": "RelA_mouse",
+      "celltype": "Epithelial_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Fibroblast",
+      "source": "RelA_mouse",
+      "celltype": "Fibroblast",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Macrophage",
+      "source": "RelA_mouse",
+      "celltype": "Macrophage",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Monocyte",
+      "source": "RelA_mouse",
+      "celltype": "Monocyte",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Mural_cell",
+      "source": "RelA_mouse",
+      "celltype": "Mural_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_NK_cell",
+      "source": "RelA_mouse",
+      "celltype": "NK_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_Neutrophil",
+      "source": "RelA_mouse",
+      "celltype": "Neutrophil",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    },
+    {
+      "key": "RelA_T_cell",
+      "source": "RelA_mouse",
+      "celltype": "T_cell",
+      "case": "RSV RelA CKO",
+      "control": "RSV vehicle",
+      "context_case": "RSV vehicle",
+      "context_control": "Uninfected vehicle",
+      "n_case": 4,
+      "n_control": 3
+    }
+  ],
+  "correction_families": {
+    "intervention_total": "BH12 across human plus all11 eligible mouse lineages",
+    "intervention_branches": "BH84 across7 fixed branches x12 contrasts",
+    "intervention_IFN_components": "BH24 across2 components x12 contrasts",
+    "intervention_contributions": "BH24 across2 signed contributions x12 contrasts",
+    "infection_context": "Separate corresponding BH12/BH84/BH24 families; human baseline time differs as deposited",
+    "direct_component_comparisons": "BH24 across (TNF/NFkB minus IFN-list overlap) and (degranulation annotation minus IFN-list overlap), in each of12 intervention contrasts; compare per-profile component differences, not separate significance labels",
+    "clinical_gene_alignment": "BH3 across the two frozen Severe-minus-Mild gene vectors and paired recovery-minus-acute vector; exact human treatment-label permutation of 8 profiles (70 allocations), retaining correlated genes as a vector; no gene-as-independent-replicate P values",
+    "gene_tests": "BH4656 for388 members x12 intervention contrasts, retaining unavailable tests in denominator",
+    "sensitivities": "Each method repeats its corresponding full prespecified family; no best-method selection or reduced displayed-row family"
+  },
+  "inference": "Unpaired Welch t and pointwise95%t intervals at independent culture/source-animal level; exact whole-unit studentized permutation as corroboration; both-group near-constant signed values <=1e-12 yield P=1, never numerical significance",
+  "sensitivities": [
+    "Signed transcriptome rank",
+    "Human total-abundance rescaling before log",
+    "Minimum15/50 mouse cells",
+    "Degranulation without LCN2",
+    "TNF/degranulation outside IFN lists: direct comparisons to IFN overlap",
+    "Every frozen-gene omission influence",
+    "Detection-supported member sensitivity for mouse"
+  ],
+  "clinical_bridge": "Fixed25-member annotation subset only; actual Result3 frozen severe/mild log expression effects; recovery effects reconstructed from the15 previously verified initially moderate/severe participant pairs. Correlation across gene-effect vectors evaluated by intervention-unit permutation. Not transportable clinical intervention efficacy.",
+  "interpretation": "Possible broad suppression, selective attenuation, persistence or opposite shifts are all reportable. Outside IFN lists is annotation membership, not IFN independence; degranulation annotation is not measured degranulation activity. Mouse TMX contrast is the intervention-associated result under this design; nonrecombined lineage changes are not cell-autonomous proof."
+}

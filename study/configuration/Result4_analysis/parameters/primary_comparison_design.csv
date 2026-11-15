@@ -1,0 +1,9 @@
+id,source,view,celltype,case,control,design,primary,case_units_metadata,control_units_metadata,paired_units_metadata
+PBMC_B_cell,Infant_PBMC,canonical,B_cell,"['Mild RSV', 'Moderate RSV', 'Severe RSV']",['Healthy'],unpaired_participants,True,19,17,0
+PBMC_T_cell,Infant_PBMC,canonical,T_cell,"['Mild RSV', 'Moderate RSV', 'Severe RSV']",['Healthy'],unpaired_participants,True,19,17,0
+PBMC_NK_cell,Infant_PBMC,canonical,NK_cell,"['Mild RSV', 'Moderate RSV', 'Severe RSV']",['Healthy'],unpaired_participants,True,19,17,0
+PBMC_Monocyte,Infant_PBMC,canonical,Monocyte,"['Mild RSV', 'Moderate RSV', 'Severe RSV']",['Healthy'],unpaired_participants,True,19,17,0
+Berg_Epithelial_cell,Berg_ALI,canonical,Epithelial_cell,['inf'],['ctrl'],within_donor_time_balanced,True,6,6,6
+Berg_Ciliated,Berg_ALI,author_epithelial,Ciliated,['inf'],['ctrl'],within_donor_time_balanced,True,3,5,2
+DC_Dendritic_cell,CD1c_DC,canonical,Dendritic_cell,['RSV'],['Untreated'],paired_donors,True,3,3,3
+DC_Monocyte,CD1c_DC,canonical,Monocyte,['RSV'],['Untreated'],paired_donors,True,3,3,3
